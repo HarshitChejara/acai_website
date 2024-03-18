@@ -134,7 +134,7 @@ export default function Footer()
                     <a className="text-gray-600 hover:text-gray-800">About us</a>
                 </li>
                 <li className="mb-5">
-                    <a className="text-gray-600 hover:text-gray-800">Careers - We're hiring!</a>
+                    <a className="text-gray-600 hover:text-gray-800">Careers - We are hiring!</a>
                 </li>
                 <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">monday-U</a>

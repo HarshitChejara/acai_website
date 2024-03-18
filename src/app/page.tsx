@@ -160,7 +160,7 @@ export default function Home() {
     <section className="text-white px-12  body-font">
       <div className="container bg-[#00854D] rounded-2xl sm:px-32 py-12 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="sm:text-8xl text-2xl font-bold title-font mb-4">Let's talk numbers</h1>
+          <h1 className="sm:text-8xl text-2xl font-bold title-font mb-4">Lets talk numbers</h1>
         </div>
         <div className="flex flex-wrap -m-4 text-center">
 
@@ -262,7 +262,7 @@ export default function Home() {
             <h1 className="text-gray-900 text-3xl title-font font-medium mb-8">Memeber Roes</h1>
             <p className="leading-relaxed mb-8 text-lg">Finding the right talent is not easy. We help you find the talent that suits your needs, follows your processes, and sticks with you long term (not the case with freelancers)</p>
             <p className="leading-relaxed mb-8 text-lg">Our <span className="bg-gradient-to-r from-[#F76680] to-[#57007B] inline-block text-transparent bg-clip-text">delivery model</span> helps you cut costs and deliver within budget.</p>
-            <p className="border-l-2 border-[#F76680] mb-8"><span className="leading-relaxed bg-gradient-to-r from-[#F76680] to-[#57007B] inline-block text-transparent bg-clip-text italic ml-3">"Simform is quick to identify larger problem with the Software so we decided to expand our scope to build new modules"</span></p>
+            <p className="border-l-2 border-[#F76680] mb-8"><span className="leading-relaxed bg-gradient-to-r from-[#F76680] to-[#57007B] inline-block text-transparent bg-clip-text italic ml-3">Simform is quick to identify larger problem with the Software so we decided to expand our scope to build new modules</span></p>
             <a className="inline-flex items-center">
               <Image alt="blog" src="/Ellipse1.png" width={50} height={50} className="rounded-full flex-shrink-0 object-cover object-center"/>
               <span className="flex-grow flex flex-col pl-4">
@@ -279,7 +279,7 @@ export default function Home() {
             <h1 className="text-gray-900 text-3xl title-font font-medium mb-8">Audit Log- Never miss an update</h1>
             <p className="leading-relaxed mb-8 text-lg">Finding the right talent is not easy. We help you find the talent that suits your needs, follows your processes, and sticks with you long term (not the case with freelancers)</p>
             <p className="leading-relaxed mb-8 text-lg">Our <span className="bg-gradient-to-r from-[#F76680] to-[#57007B] inline-block text-transparent bg-clip-text">delivery model</span> helps you cut costs and deliver within budget.</p>
-            <p className="border-l-2 border-[#F76680] mb-8"><span className="leading-relaxed bg-gradient-to-r from-[#F76680] to-[#57007B] inline-block text-transparent bg-clip-text italic ml-3">"Simform is quick to identify larger problem with the Software so we decided to expand our scope to build new modules"</span></p>
+            <p className="border-l-2 border-[#F76680] mb-8"><span className="leading-relaxed bg-gradient-to-r from-[#F76680] to-[#57007B] inline-block text-transparent bg-clip-text italic ml-3">Simform is quick to identify larger problem with the Software so we decided to expand our scope to build new modules</span></p>
             <a className="inline-flex items-center">
               <Image alt="blog" src="/Ellipse2.png" width={50} height={50} className="rounded-full flex-shrink-0 object-cover object-center"/>
               <span className="flex-grow flex flex-col pl-4">
@@ -296,7 +296,7 @@ export default function Home() {
             <h1 className="text-gray-900 text-3xl title-font font-medium mb-8">No limit- Upto a million records</h1>
             <p className="leading-relaxed mb-8 text-lg">Finding the right talent is not easy. We help you find the talent that suits your needs, follows your processes, and sticks with you long term (not the case with freelancers)</p>
             <p className="leading-relaxed mb-8 text-lg">Our <span className="bg-gradient-to-r from-[#F76680] to-[#57007B] inline-block text-transparent bg-clip-text">delivery model</span> helps you cut costs and deliver within budget.</p>
-            <p className="border-l-2 border-[#F76680] mb-8"><span className="leading-relaxed bg-gradient-to-r from-[#F76680] to-[#57007B] inline-block text-transparent bg-clip-text italic ml-3">"Simform is quick to identify larger problem with the Software so we decided to expand our scope to build new modules"</span></p>
+            <p className="border-l-2 border-[#F76680] mb-8"><span className="leading-relaxed bg-gradient-to-r from-[#F76680] to-[#57007B] inline-block text-transparent bg-clip-text italic ml-3">Simform is quick to identify larger problem with the Software so we decided to expand our scope to build new modules</span></p>
             <a className="inline-flex items-center">
               <Image alt="blog" src="/Ellipse3.png" width={50} height={50} className="rounded-full flex-shrink-0 object-cover object-center"/>
               <span className="flex-grow flex flex-col pl-4">
