@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -10,12 +11,12 @@ export default function Home() {
         <div className="py-10 bg-[#452AEA]"></div>
         <div className="container mx-auto flex px-5 sm:px-14 sm:py-32 py-12 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 ">
-            <h1 className="title-font sm:text-7xl text-3xl mb-10 font-medium">A platform built for a
-              <br className="hidden lg:inline-block"/>new way of working
+            <h1 className="title-font sm:text-7xl text-3xl mb-8 font-medium">A platform built for
+              <br className="hidden lg:inline-block"/>intelligent Accounting
             </h1>
-            <p className="sm:mb-20 leading-relaxed text-xl">What would you like to manage with acaicom Work OS?</p>
+            <p className="sm:mb-20 leading-relaxed text-xl">What would you like to manage with theaccountantai.com</p>
             <div className="flex ">
-              <button className="inline-flex text-white bg-gradient-to-r from-[#5034FF] to-[#B4B4FF] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4 sm:py-2 py-2 ml-2"/></button>
+            <Link href="https://app.theaccountantai.com/" target="_blank"><button className="inline-flex text-white bg-gradient-to-r from-[#5034FF] to-[#B4B4FF] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4 sm:py-2 py-2 ml-2"/></button></Link>
             </div>
             <p className="mt-8 leading-relaxed">No credit card needed ✦ Unlimited time on Free plan</p>
           </div>
@@ -34,10 +35,10 @@ export default function Home() {
     <section className="text-gray-600 body-font">
       <div className="container px-5 sm:px-12 sm:py-32 py-24 mx-auto flex flex-wrap">
         <div className="flex w-full mb-20 flex-wrap">
-          <h1 className="sm:text-4xl text-3xl title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">The Work OS that lets you shape accounts, <span className="font-bold">your way</span></h1>
-          <p className="lg:pl-52 lg:w-2/3 mx-auto leading-relaxed text-xl">Streamline your accounting needs, efficiency, and productivity by customizing any workflow to fit your needs.
+          <h1 className="sm:text-4xl text-3xl title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Your Automated Accountant that manages your Accounts in <span className="font-bold">your way</span></h1>
+          <p className="lg:pl-52 lg:w-2/3 mx-auto leading-relaxed text-xl">Streamline your accounting needs, efficiency, and productivity by customizing any workflow to fit your needs. Import any IMG/CSV/EXCEL/PDF/WORD file or from your own software API.
             <span className="flex sm:mt-5 mt-5">
-              <button className="inline-flex text-white bg-[#6161FF] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4 sm:py-2 py-2 ml-2"/></button>
+            <Link href="https://app.theaccountantai.com/" target="_blank"><button className="inline-flex text-white bg-[#6161FF] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4 sm:py-2 py-2 ml-2"/></button></Link>
             </span>
           </p>
         </div>
@@ -90,8 +91,8 @@ export default function Home() {
               <div className="w-16 h-16 inline-flex border border-[#57007B] items-center justify-center rounded-full bg-white text-indigo-500 mb-4">
                 <Image alt="mobile app" width={50} height={50} src="/mobile_app.png"/>
               </div>
-              <h2 className="text-lg text-gray-900 font-bold title-font mb-2">Mobile App Development</h2>
-              <p className="leading-relaxed text-base">A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.</p>
+              <h2 className="text-lg text-gray-900 font-bold title-font mb-2">Collect Data</h2>
+              <p className="leading-relaxed text-base">Import any number of files. JPG or JPEG or PDF or EXCEL or CSV or WORD formates supported.</p>
             </div>
           </div>
 
@@ -100,8 +101,8 @@ export default function Home() {
               <div className="w-16 h-16 inline-flex border border-[#57007B] items-center justify-center rounded-full bg-white text-indigo-500 mb-4">
                 <Image alt="mobile app" width={40} height={40} src="/Code_perspective.png"/>
               </div>
-              <h2 className="text-lg text-gray-900 font-bold title-font mb-2">Web Design & Development</h2>
-              <p className="leading-relaxed text-base">A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.</p>
+              <h2 className="text-lg text-gray-900 font-bold title-font mb-2">Analyse Data</h2>
+              <p className="leading-relaxed text-base">Intelligent Document Processing (IDP) clasifies your finantial and non-finantial files on its own.</p>
             </div>
           </div>
 
@@ -110,8 +111,8 @@ export default function Home() {
               <div className="w-16 h-16 inline-flex border border-[#57007B] items-center justify-center rounded-full bg-white text-indigo-500 mb-4">
                 <Image alt="mobile app" width={40} height={40} src="/Dashboard.png"/>
               </div>
-              <h2 className="text-lg text-gray-900 font-bold title-font mb-2">Software Testing Service</h2>
-              <p className="leading-relaxed text-base">A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.</p>
+              <h2 className="text-lg text-gray-900 font-bold title-font mb-2">Manage Data</h2>
+              <p className="leading-relaxed text-base">The Accountant AI allows you to customise how you manage your accounting.</p>
             </div>
           </div>
 
@@ -120,8 +121,8 @@ export default function Home() {
               <div className="w-16 h-16 inline-flex border border-[#57007B] items-center justify-center rounded-full bg-white text-indigo-500 mb-4">
                 <Image alt="mobile app" width={50} height={50} src="/mobile_app.png"/>
               </div>
-              <h2 className="text-lg text-gray-900 font-bold title-font mb-2">Mobile App Development</h2>
-              <p className="leading-relaxed text-base">A Website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.</p>
+              <h2 className="text-lg text-gray-900 font-bold title-font mb-2">Automate Accounting</h2>
+              <p className="leading-relaxed text-base">Relax and stay back while The Accountant AI manages your Accounting for you.</p>
             </div>
           </div>
 
@@ -136,12 +137,12 @@ export default function Home() {
       <div className="container mx-auto flex px-5 sm:px-16 sm:py-72 py-24 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <span className="inline-block h-1 w-20 rounded bg-[#FFC107] mb-6"></span>
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 text-gray-900">How accountant ai will ease
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 text-gray-900">How Accountant AI will ease
             <br className="hidden lg:inline-block"/><span className="font-bold">the accounting system</span>
           </h1>
-          <p className="mb-8 leading-relaxed text-lg">We <span className="text-[#F76680]">add development capacity</span> to tech teams. Our value isn’t limited to building teams but is equally distributed across the project lifecycle. We are a custom software development company that guarantees the successful delivery of your project.</p>
+          <p className="mb-8 leading-relaxed text-lg">We <span className="text-[#F76680]">automate document processing</span> for businesses. Our value isn’t limited to building teams but is equally distributed across the project lifecycle. We are an Accounting Automation company that guarantees successfully making the accounting automated for yuor business.</p>
           <div className="flex justify-center">
-            <p className="font-medium text-black">See more Informations <FontAwesomeIcon icon={faArrowRight} className="text-[#57007B] pl-4 h-4 w-4"/></p>
+            <p className="font-medium text-black">See more Information <FontAwesomeIcon icon={faArrowRight} className="text-[#57007B] pl-4 h-4 w-4"/></p>
           </div>
         </div>
         <div className="md:w-1/2 w-5/6 container sm:px-1 px-8 sm:mr-1 mr-28">
@@ -166,29 +167,29 @@ export default function Home() {
 
           <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
             <div className="border-r-2 border-[#00CA72] px-4 sm:py-6">
-              <h2 className="title-font font-bold text-5xl mb-5">0,500+</h2>
-              <p className="leading-relaxed">Time Saved</p>
+              <h2 className="title-font font-bold text-5xl mb-5">100,000+</h2>
+              <p className="leading-relaxed">File Import Capacity</p>
             </div>
           </div>
 
           <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
             <div className="border-r-2 border-[#00CA72] px-4 py-6">
-              <h2 className="title-font font-bold text-5xl mb-5">052k+</h2>
-              <p className="leading-relaxed">No. of Documents</p>
+              <h2 className="title-font font-bold text-5xl mb-5">6+</h2>
+              <p className="leading-relaxed">Supported Document formats</p>
             </div>
           </div>
 
           <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
             <div className="px-4 py-6">
-              <h2 className="title-font font-bold text-5xl mb-5">04%</h2>
-              <p className="leading-relaxed">of people feel happier using monday.com</p>
+              <h2 className="title-font font-bold text-5xl mb-5">5+</h2>
+              <p className="leading-relaxed">Integations Available</p>
             </div>
           </div>
 
           <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
             <div className="border-l-2 border-[#00CA72] px-4 py-6">
-              <h2 className="title-font font-bold text-5xl mb-5">07k+</h2>
-              <p className="leading-relaxed">llama widgets created</p>
+              <h2 className="title-font font-bold text-5xl mb-5">Free</h2>
+              <p className="leading-relaxed">Plans Available</p>
             </div>
           </div>
 
@@ -202,10 +203,10 @@ export default function Home() {
 
 
     <section className="text-gray-600 body-font">
-      <div className="container py-44 mx-auto">
+      <div className="container py-28 mx-auto">
         <div className="flex flex-col w-full mb-20 px-14">
         <span className="inline-block h-1 w-20 rounded bg-[#4CAF50] mb-6"></span>
-          <h1 className="sm:text-3xl text-2xl title-font mb-4 text-gray-900">ACAI’s integratons with
+          <h1 className="sm:text-3xl text-2xl title-font mb-4 text-gray-900">The Accountant AI Integrations with
             <br className="hidden lg:inline-block"/>other platforms
           </h1>
         </div>
@@ -252,17 +253,17 @@ export default function Home() {
 
         <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
           <span className="inline-block h-1 w-20 rounded bg-[#1B6953] mb-6"></span>
-          <h1 className="sm:text-4xl text-2xl title-font mb-2 text-gray-900">ACAI Features
-          <br className="hidden lg:inline-block"/><span className="font-bold">Case Studies</span>
+          <h1 className="sm:text-4xl text-2xl title-font mb-2 text-gray-900">The Accountant AI 
+          <br className="hidden lg:inline-block"/><span className="font-bold">Features</span>
           </h1>
         </div>
 
         <div className="mx-auto flex flex-wrap sm:mb-20">
           <div className="lg:w-1/2 w-full lg:pr-20 lg:py-6 mb-6 lg:mb-0">
-            <h1 className="text-gray-900 text-3xl title-font font-medium mb-8">Memeber Roes</h1>
-            <p className="leading-relaxed mb-8 text-lg">Finding the right talent is not easy. We help you find the talent that suits your needs, follows your processes, and sticks with you long term (not the case with freelancers)</p>
+            <h1 className="text-gray-900 text-3xl title-font font-medium mb-8">Remove Manual Tasks</h1>
+            <p className="leading-relaxed mb-8 text-lg">Removing Manual Data entry habit is not easy. We provide you an automated accountant that suits your needs, follows your processes, and sticks with you long term (not the case with freelancers)</p>
             <p className="leading-relaxed mb-8 text-lg">Our <span className="bg-gradient-to-r from-[#F76680] to-[#57007B] inline-block text-transparent bg-clip-text">delivery model</span> helps you cut costs and deliver within budget.</p>
-            <p className="border-l-2 border-[#F76680] mb-8"><span className="leading-relaxed bg-gradient-to-r from-[#F76680] to-[#57007B] inline-block text-transparent bg-clip-text italic ml-3">Simform is quick to identify larger problem with the Software so we decided to expand our scope to build new modules</span></p>
+            <p className="border-l-2 border-[#F76680] mb-8"><span className="leading-relaxed bg-gradient-to-r from-[#F76680] to-[#57007B] inline-block text-transparent bg-clip-text italic ml-3">The Accountant AI is quick to identify larger problem with the Software so we decided to expand our scope to build new modules</span></p>
             <a className="inline-flex items-center">
               <Image alt="blog" src="/Ellipse1.png" width={50} height={50} className="rounded-full flex-shrink-0 object-cover object-center"/>
               <span className="flex-grow flex flex-col pl-4">
@@ -276,10 +277,10 @@ export default function Home() {
 
         <div className="mx-auto flex flex-wrap sm:mb-20">
           <div className="lg:w-1/2 w-full lg:pr-20 lg:py-6 mb-6 lg:mb-0">
-            <h1 className="text-gray-900 text-3xl title-font font-medium mb-8">Audit Log- Never miss an update</h1>
-            <p className="leading-relaxed mb-8 text-lg">Finding the right talent is not easy. We help you find the talent that suits your needs, follows your processes, and sticks with you long term (not the case with freelancers)</p>
+            <h1 className="text-gray-900 text-3xl title-font font-medium mb-8">Audit Log- Manage Approvals easily.</h1>
+            <p className="leading-relaxed mb-8 text-lg">We help you Manage the documents approvals that fit your business, follows your processes, and easy to adapt.</p>
             <p className="leading-relaxed mb-8 text-lg">Our <span className="bg-gradient-to-r from-[#F76680] to-[#57007B] inline-block text-transparent bg-clip-text">delivery model</span> helps you cut costs and deliver within budget.</p>
-            <p className="border-l-2 border-[#F76680] mb-8"><span className="leading-relaxed bg-gradient-to-r from-[#F76680] to-[#57007B] inline-block text-transparent bg-clip-text italic ml-3">Simform is quick to identify larger problem with the Software so we decided to expand our scope to build new modules</span></p>
+            <p className="border-l-2 border-[#F76680] mb-8"><span className="leading-relaxed bg-gradient-to-r from-[#F76680] to-[#57007B] inline-block text-transparent bg-clip-text italic ml-3">The Accountant AI is quick to identify larger problem with the Software so we decided to expand our scope to build new modules</span></p>
             <a className="inline-flex items-center">
               <Image alt="blog" src="/Ellipse2.png" width={50} height={50} className="rounded-full flex-shrink-0 object-cover object-center"/>
               <span className="flex-grow flex flex-col pl-4">
@@ -294,9 +295,9 @@ export default function Home() {
         <div className="mx-auto flex flex-wrap">
           <div className="lg:w-1/2 w-full lg:pr-20 lg:py-6 mb-6 lg:mb-0">
             <h1 className="text-gray-900 text-3xl title-font font-medium mb-8">No limit- Upto a million records</h1>
-            <p className="leading-relaxed mb-8 text-lg">Finding the right talent is not easy. We help you find the talent that suits your needs, follows your processes, and sticks with you long term (not the case with freelancers)</p>
+            <p className="leading-relaxed mb-8 text-lg">Getting Correct Accounting documents is very difficult. Import data from multiple sources and stay up to date with your accounting.</p>
             <p className="leading-relaxed mb-8 text-lg">Our <span className="bg-gradient-to-r from-[#F76680] to-[#57007B] inline-block text-transparent bg-clip-text">delivery model</span> helps you cut costs and deliver within budget.</p>
-            <p className="border-l-2 border-[#F76680] mb-8"><span className="leading-relaxed bg-gradient-to-r from-[#F76680] to-[#57007B] inline-block text-transparent bg-clip-text italic ml-3">Simform is quick to identify larger problem with the Software so we decided to expand our scope to build new modules</span></p>
+            <p className="border-l-2 border-[#F76680] mb-8"><span className="leading-relaxed bg-gradient-to-r from-[#F76680] to-[#57007B] inline-block text-transparent bg-clip-text italic ml-3">The Accountant AI is quick to identify larger problem with the Software so we decided to expand our scope to build new modules</span></p>
             <a className="inline-flex items-center">
               <Image alt="blog" src="/Ellipse3.png" width={50} height={50} className="rounded-full flex-shrink-0 object-cover object-center"/>
               <span className="flex-grow flex flex-col pl-4">
@@ -334,8 +335,8 @@ export default function Home() {
                 <Image alt="rocket" width={40} height={40} src="/rocket.png"/>
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-xl title-font font-medium mb-3">UX Driven Engineering</h2>
-                <p className="leading-relaxed text-base">Unlike other companies, we are a <span className="text-black">UX first</span> development company. Projects are driven by designers and they make sure design and experiences translate to code.</p>
+                <h2 className="text-gray-900 text-xl title-font font-medium mb-3">Feature Highlight</h2>
+                <p className="leading-relaxed text-base">Unlike other companies, we are a <span className="text-black">Accounting Automation </span> company. Projects are driven by Accountants and they make sure design and processes translate to automated accounting..</p>
               </div>
             </div>
           </div>
@@ -346,8 +347,8 @@ export default function Home() {
                 <Image alt="code" width={40} height={40} src="/Code_perspective.png"/>
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-xl title-font font-medium mb-3">Developing Shared Understanding</h2>
-                <p className="leading-relaxed text-base">Unlike other companies, we are a <span className="text-[#509CF5]">UX first</span> development company. Projects are driven by designers and they make sure design and experiences translate to code.</p>
+              <h2 className="text-gray-900 text-xl title-font font-medium mb-3">Feature Highlight</h2>
+                <p className="leading-relaxed text-base">Unlike other companies, we are a <span className="text-black">Accounting Automation </span> company. Projects are driven by Accountants and they make sure design and processes translate to automated accounting..</p>
               </div>
             </div>
           </div>
@@ -358,8 +359,8 @@ export default function Home() {
                 <Image alt="heart_rate" width={40} height={40} src="/heart_rate.png"/>
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-xl title-font font-medium mb-3">Proven Experience and Expertise</h2>
-                <p className="leading-relaxed text-base">Unlike other companies, we are a <span className="text-[#FF92AE]">UX first</span> development company. Projects are driven by designers and they make sure design and experiences translate to code.</p>
+              <h2 className="text-gray-900 text-xl title-font font-medium mb-3">Feature Highlight</h2>
+                <p className="leading-relaxed text-base">Unlike other companies, we are a <span className="text-black">Accounting Automation </span> company. Projects are driven by Accountants and they make sure design and processes translate to automated accounting..</p>
               </div>
             </div>
           </div>
@@ -370,8 +371,8 @@ export default function Home() {
                 <Image alt="shield" width={40} height={40} src="/shield.png"/>
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-xl title-font font-medium mb-3">Security & Intellectual Property (IP)</h2>
-                <p className="leading-relaxed text-base">Unlike other companies, we are a <span className="text-[#67E9F1]">UX first</span> development company. Projects are driven by designers and they make sure design and experiences translate to code.</p>
+              <h2 className="text-gray-900 text-xl title-font font-medium mb-3">Feature Highlight</h2>
+                <p className="leading-relaxed text-base">Unlike other companies, we are a <span className="text-black">Accounting Automation </span> company. Projects are driven by Accountants and they make sure design and processes translate to automated accounting..</p>
               </div>
             </div>
           </div>
@@ -382,8 +383,8 @@ export default function Home() {
                 <Image alt="success" width={40} height={40} src="/success.png"/>
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-xl title-font font-medium mb-3">Code Reviews</h2>
-                <p className="leading-relaxed text-base">Unlike other companies, we are a <span className="text-[#F7936F]">UX first</span> development company. Projects are driven by designers and they make sure design and experiences translate to code.</p>
+              <h2 className="text-gray-900 text-xl title-font font-medium mb-3">Feature Highlight</h2>
+                <p className="leading-relaxed text-base">Unlike other companies, we are a <span className="text-black">Accounting Automation </span> company. Projects are driven by Accountants and they make sure design and processes translate to automated accounting..</p>
               </div>
             </div>
           </div>
@@ -394,8 +395,8 @@ export default function Home() {
                 <Image alt="lock" width={40} height={40} src="/lock.png"/>
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-xl title-font font-medium mb-3">Quality Assurance & Testing</h2>
-                <p className="leading-relaxed text-base">Unlike other companies, we are a <span className="text-[#F76680]">UX first</span> development company. Projects are driven by designers and they make sure design and experiences translate to code.</p>
+              <h2 className="text-gray-900 text-xl title-font font-medium mb-3">Feature Highlight</h2>
+                <p className="leading-relaxed text-base">Unlike other companies, we are a <span className="text-black">Accounting Automation </span> company. Projects are driven by Accountants and they make sure design and processes translate to automated accounting..</p>
               </div>
             </div>
           </div>
@@ -418,8 +419,8 @@ export default function Home() {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
           <span className="inline-block h-1 w-20 rounded bg-[#FFC107] mb-6"></span>
-          <h1 className="sm:text-4xl text-2xl title-font mb-2 text-gray-900">How development
-          <br className="hidden lg:inline-block"/><span className="font-bold">through ACAI works</span>
+          <h1 className="sm:text-4xl text-2xl title-font mb-2 text-gray-900">How 
+          <br className="hidden lg:inline-block"/><span className="font-bold">The Accountant AI works</span>
           </h1>
         </div>
         <div className="flex flex-wrap -m-4 sm:px-32 px-8">
@@ -427,42 +428,42 @@ export default function Home() {
           <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20">
             <div className="h-full text-center">
               <h1 className="text-white bg-[#1F0F83] text-3xl py-5 w-20 h-20 object-center inline-block rounded-full mb-8">1</h1>
-              <p className="leading-relaxed text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet risus fringilla, egestas elit a, consequat augue. Phasellus sollicitudin felis mi, quis egestas ex ornare sed sollicitudin.</p>
+              <p className="leading-relaxed text-left">Regester on The Accountant AI.</p>
             </div>
           </div>
 
           <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20">
             <div className="h-full text-center">
               <h1 className="text-white bg-[#1F0F83] text-3xl py-5 w-20 h-20 object-center inline-block rounded-full mb-8">2</h1>
-              <p className="leading-relaxed text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet risus fringilla, egestas elit a, consequat augue. Phasellus sollicitudin felis mi, quis egestas ex ornare sed sollicitudin.</p>
+              <p className="leading-relaxed text-left">Create your first company on The Accountant AI. You can create more than one company.</p>
             </div>
           </div>
 
           <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20">
             <div className="h-full text-center">
               <h1 className="text-white bg-[#1F0F83] text-3xl py-5 w-20 h-20 object-center inline-block rounded-full mb-8">3</h1>
-              <p className="leading-relaxed text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet risus fringilla, egestas elit a, consequat augue. Phasellus sollicitudin felis mi, quis egestas ex ornare sed sollicitudin.</p>
+              <p className="leading-relaxed text-left">Link your accounting system on theacountantai.com. We support Xero, Quickbooks, NetSuite bookkeeping software integrations. More comming soon.</p>
             </div>
           </div>
 
           <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20">
             <div className="h-full text-center">
               <h1 className="text-white bg-[#1F0F83] text-3xl py-5 w-20 h-20 object-center inline-block rounded-full mb-8">4</h1>
-              <p className="leading-relaxed text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet risus fringilla, egestas elit a, consequat augue. Phasellus sollicitudin felis mi, quis egestas ex ornare sed sollicitudin.</p>
+              <p className="leading-relaxed text-left">Import single File or import files in bulk. The Accountant AI supports JPG/ JPEG/ EXCEL/ CSV/ PDF/ WORD file formats.</p>
             </div>
           </div>
 
           <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20">
             <div className="h-full text-center">
               <h1 className="text-white bg-[#1F0F83] text-3xl py-5 w-20 h-20 object-center inline-block rounded-full mb-8">5</h1>
-              <p className="leading-relaxed text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet risus fringilla, egestas elit a, consequat augue. Phasellus sollicitudin felis mi, quis egestas ex ornare sed sollicitudin.</p>
+              <p className="leading-relaxed text-left">Setup custom Document Approval flows and edit before adding data to your accounting system.</p>
             </div>
           </div>
 
           <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20">
             <div className="h-full text-center">
               <h1 className="text-white bg-[#1F0F83] text-3xl py-5 w-20 h-20 object-center inline-block rounded-full mb-8">6</h1>
-              <p className="leading-relaxed text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet risus fringilla, egestas elit a, consequat augue. Phasellus sollicitudin felis mi, quis egestas ex ornare sed sollicitudin.</p>
+              <p className="leading-relaxed text-left">Your Accounting is Automated now. Get Started here.</p>
             </div>
           </div>
 
@@ -493,7 +494,7 @@ export default function Home() {
             <div className="h-full flex flex-col items-center">
               <Image alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" width={200} height={200} src="/Resources1.png"/>
               <div className="w-full">
-                <p className="mb-4">How to Build a Scalable Application up to 1 Million Users on AWS</p>
+                <p className="mb-4">How to Automate your Accounting in 4 steps on ACAI</p>
                 <div className="flex items-center flex-wrap ">
                   <a className="text-black font-medium inline-flex ml-auto items-center md:mb-2 lg:mb-0">Read More <FontAwesomeIcon icon={faArrowRight} className="ml-4 h-4 w-4"/></a>
                 </div>
@@ -505,7 +506,7 @@ export default function Home() {
             <div className="h-full flex flex-col items-center">
               <Image alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" width={200} height={200} src="/Resources2.png"/>
               <div className="w-full">
-                <p className="mb-4">How to Build a Scalable Application up to 1 Million Users on AWS</p>
+                <p className="mb-4">How to Import from Google Drive or One Drive.</p>
                 <div className="flex items-center flex-wrap ">
                   <a className="text-black font-medium inline-flex ml-auto items-center md:mb-2 lg:mb-0">Read More <FontAwesomeIcon icon={faArrowRight} className="ml-4 h-4 w-4"/></a>
                 </div>
@@ -517,7 +518,7 @@ export default function Home() {
             <div className="h-full flex flex-col items-center">
               <Image alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" width={200} height={200} src="/Resources3.png"/>
               <div className="w-full">
-                <p className="mb-4">How to Build a Scalable Application up to 1 Million Users on AWS</p>
+                <p className="mb-4">How to Link your Xero account to ACAI.</p>
                 <div className="flex items-center flex-wrap ">
                   <a className="text-black font-medium inline-flex ml-auto items-center md:mb-2 lg:mb-0">Read More <FontAwesomeIcon icon={faArrowRight} className="ml-4 h-4 w-4"/></a>
                 </div>
@@ -529,7 +530,7 @@ export default function Home() {
             <div className="h-full flex flex-col items-center">
               <Image alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" width={200} height={200} src="/Resources4.png"/>
               <div className="w-full">
-                <p className="mb-4">How to Build a Scalable Application up to 1 Million Users on AWS</p>
+                <p className="mb-4">How to Link your Quickbooks account to ACAI.</p>
                 <div className="flex items-center flex-wrap ">
                   <a className="text-black font-medium inline-flex ml-auto items-center md:mb-2 lg:mb-0">Read More <FontAwesomeIcon icon={faArrowRight} className="ml-4 h-4 w-4"/></a>
                 </div>
@@ -541,7 +542,7 @@ export default function Home() {
             <div className="h-full flex flex-col items-center">
               <Image alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" width={200} height={200} src="/Resources5.png"/>
               <div className="w-full">
-                <p className="mb-4">How to Build a Scalable Application up to 1 Million Users on AWS</p>
+                <p className="mb-4">Best Ways to use ACAI.</p>
                 <div className="flex items-center flex-wrap ">
                   <a className="text-black font-medium inline-flex ml-auto items-center md:mb-2 lg:mb-0">Read More <FontAwesomeIcon icon={faArrowRight} className="ml-4 h-4 w-4"/></a>
                 </div>
@@ -564,10 +565,10 @@ export default function Home() {
       <div className="container mx-auto bg-[#1F0F83] rounded-3xl flex px-5 sm:px-20 sm:py-1 py-5 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-20 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-5xl text-3xl mb-12 font-medium">Streamline your accounting
-            <br className="hidden lg:inline-block"/>system with ACAI
+            <br className="hidden lg:inline-block"/>system with The Accountant AI
           </h1>
           <div className="flex justify-center">
-            <button className="inline-flex text-black font-medium bg-white py-2 px-14 focus:outline-none rounded-xl text-lg">Start Trial</button>
+          <Link href="https://app.theaccountantai.com/" target="_blank"><button className="inline-flex text-black font-medium bg-white py-2 px-14 focus:outline-none rounded-xl text-lg">Start Trial</button></Link>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

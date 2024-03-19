@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { faCircleExclamation } from '@fortawesome/free-solid-svg-icons';
@@ -12,9 +13,9 @@ export default function Pricing() {
     <div className="container px-5 sm:px-28 sm:py-24 sm:mb-1 mb-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-10">
         <h1 className="sm:text-4xl text-3xl font-bold title-font mb-2 text-gray-900">Supercharge your teamwork. Start <span className="text-[#5559DF]">free.</span></h1>
-        <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Unlimited boards and workflows. No credit card needed.</p>
+        <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Unlimited file imports and inteligent accounting. No credit card needed.</p>
         <div className="flex mx-auto overflow-hidden mt-6">
-            <button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4"/></button>
+        <Link href="https://app.theaccountantai.com/" target="_blank"><button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4"/></button></Link>
         </div>
         </div>
         <div className="flex flex-col w-full text-right mb-5 text-lg">
@@ -26,12 +27,12 @@ export default function Pricing() {
             <div className="h-full p-6 rounded border border-gray-300 flex flex-col relative overflow-hidden">
                 <h2 className="text-2xl text-black title-font mb-1 font-bold">Free</h2>
                 <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-5">
-                    <span>$0</span>
-                    <span className="text-lg ml-1 font-normal text-gray-400">free <br/>forever</span>
+                    <span>10</span>
+                    <span className="text-lg ml-1 font-normal text-gray-400">Imports /<br/>month</span>
                 </h1>
-                <h2 className="text-xl text-black title-font mb-1 font-bold">Up to 2 seats</h2>
+                <h2 className="text-xl text-black title-font mb-1 font-bold">Free Forever</h2>
                     <div className="items-left py-3">
-                        <button className="bg-[#6161FF] px-8 py-2 text-white rounded-full">Try for free</button>
+                    <Link href="https://app.theaccountantai.com/" target="_blank"><button className="bg-[#6161FF] px-8 py-2 text-white rounded-full">Try for free</button></Link>
                     </div>
                     <p className="text-gray-500 text-lg">For individuals looking to keep track of their work</p>
                 <span className="inline-block h-1 w-50 rounded bg-gray-300 mt-28 mb-5"></span>
@@ -51,13 +52,13 @@ export default function Pricing() {
 
                 <h2 className="text-2xl text-black title-font mb-1 font-bold">Basic</h2>
                 <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4">
-                    <span className="text-[#A25DDC]">$9</span>
-                    <span className="text-lg ml-1 font-normal text-gray-400">tasks /<br/>month</span>
+                    <span className="text-[#A25DDC]">100</span>
+                    <span className="text-lg ml-1 font-normal text-gray-400">Imports /<br/>month</span>
                 </h1>
-                <h2 className="text-xl text-black title-font font-bold">Total $24 / month</h2>
+                <h2 className="text-xl text-black title-font font-bold">Total $99 / month</h2>
                     <p className="text-gray-500">Billed annually</p>
                     <div className="items-left py-3">
-                        <button className="bg-[#6161FF] px-8 py-2 text-white rounded-full">Get Plan</button>
+                    <Link href="https://app.theaccountantai.com/" target="_blank"><button className="bg-[#6161FF] px-8 py-2 text-white rounded-full">Get Plan</button></Link>
                     </div>
                     <p className="text-gray-500 text-lg">Manage all your teams’ work in one place</p>
                 <span className="inline-block h-1 w-50 rounded bg-gray-300 mt-28 mb-5"></span>
@@ -78,13 +79,13 @@ export default function Pricing() {
                     <button className="bg-[#0085FF] text-white ml-auto rounded p-1">Most Popular</button>
                 </div>
                 <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4">
-                    <span className="text-[#0085FF]">$99</span>
-                    <span className="text-lg ml-1 font-normal text-gray-400">tasks /<br/>month</span>
+                    <span className="text-[#0085FF]">1000</span>
+                    <span className="text-lg ml-1 font-normal text-gray-400">Imports /<br/>month</span>
                 </h1>
-                <h2 className="text-xl text-black title-font font-bold">Total $30 / month</h2>
+                <h2 className="text-xl text-black title-font font-bold">Total $199 / month</h2>
                     <p className="text-gray-500">Billed annually</p>
                     <div className="items-left py-3">
-                        <button className="bg-[#6161FF] px-8 py-2 text-white rounded-full">Get Plan</button>
+                    <Link href="https://app.theaccountantai.com/" target="_blank"><button className="bg-[#6161FF] px-8 py-2 text-white rounded-full">Get Plan</button></Link>
                     </div>
                     <p className="text-gray-500 text-lg">Collaborate and optimize your team processes</p>
                 <span className="inline-block h-1 w-50 rounded bg-gray-300 mt-28 mb-5"></span>
@@ -104,13 +105,13 @@ export default function Pricing() {
 
                 <h2 className="text-2xl text-black title-font mb-1 font-bold">Enterprise</h2>
                 <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4">
-                    <span className="text-[#00CA72]">$199</span>
-                    <span className="text-lg ml-1 font-normal text-gray-400">tasks /<br/>month</span>
+                    <span className="text-[#00CA72]">100K+</span>
+                    <span className="text-lg ml-1 font-normal text-gray-400">Imports /<br/>month</span>
                 </h1>
-                <h2 className="text-xl text-black title-font font-bold">Total $48 / month</h2>
+                <h2 className="text-xl text-black title-font font-bold">Custom Pricing. Book demo today</h2>
                     <p className="text-gray-500">Billed annually</p>
                     <div className="items-left py-3">
-                        <button className="bg-[#6161FF] px-8 py-2 text-white rounded-full">Get Plan</button>
+                    <Link href="https://app.theaccountantai.com/" target="_blank"><button className="bg-[#6161FF] px-8 py-2 text-white rounded-full">Get Plan</button></Link>
                     </div>
                     <p className="text-gray-500 text-lg">Streamline and run your teams’ complex workflows</p>
                 <span className="inline-block h-1 w-50 rounded bg-gray-300 mt-28 mb-5"></span>
@@ -192,7 +193,7 @@ export default function Pricing() {
         <div className=" w-full rounded-3xl ">
             <input type="checkbox" id="input1" className="absolute peer opacity-0"/>
             <div className="flex items-center flex-wrap mt-auto w-full border-b border-gray-200 py-5">
-              <label htmlFor="input1" className="flex items-center p-3 inline-flex text-xl">Is there a free version of acai.com?</label>
+              <label htmlFor="input1" className="flex items-center p-3 inline-flex text-xl">Is there a free version of theaccountentai.com?</label>
               <span className="text-black mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3" >
               <label htmlFor="input1"><FontAwesomeIcon icon={faChevronDown} className="w-5 h-5 ml-auto inline-flex"/></label>
               </span>
@@ -207,7 +208,7 @@ export default function Pricing() {
         <div className=" w-full rounded-3xl ">
             <input type="checkbox" id="input2" className="absolute peer opacity-0"/>
             <div className="flex items-center flex-wrap mt-auto w-full border-b border-gray-200 py-5">
-              <label htmlFor="input2" className="flex items-center p-3 inline-flex text-xl">How much does acai.com cost?</label>
+              <label htmlFor="input2" className="flex items-center p-3 inline-flex text-xl">How much does theaccountentai.com cost?</label>
               <span className="text-black mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3" >
               <label htmlFor="input2"><FontAwesomeIcon icon={faChevronDown} className="w-5 h-5 ml-auto inline-flex"/></label>
               </span>
@@ -222,7 +223,7 @@ export default function Pricing() {
         <div className=" w-full rounded-3xl ">
             <input type="checkbox" id="input3" className="absolute peer opacity-0"/>
             <div className="flex items-center flex-wrap mt-auto w-full border-b border-gray-200 py-5">
-              <label htmlFor="input3" className="flex items-center p-3 inline-flex text-xl">Can you pay for acai.com monthly?</label>
+              <label htmlFor="input3" className="flex items-center p-3 inline-flex text-xl">Can you pay for theaccountentai.com monthly?</label>
               <span className="text-black mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3" >
               <label htmlFor="input3"><FontAwesomeIcon icon={faChevronDown} className="w-5 h-5 ml-auto inline-flex"/></label>
               </span>
@@ -297,7 +298,7 @@ export default function Pricing() {
         <div className=" w-full rounded-3xl ">
             <input type="checkbox" id="input8" className="absolute peer opacity-0"/>
             <div className="flex items-center flex-wrap mt-auto w-full border-b border-gray-200 py-5">
-              <label htmlFor="input8" className="flex items-center p-3 inline-flex text-xl">Does monday.com offer plans for students?</label>
+              <label htmlFor="input8" className="flex items-center p-3 inline-flex text-xl">Does theaccountentai.com offer plans for students?</label>
               <span className="text-black mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3" >
               <label htmlFor="input8"><FontAwesomeIcon icon={faChevronDown} className="w-5 h-5 ml-auto inline-flex"/></label>
               </span>
@@ -312,7 +313,7 @@ export default function Pricing() {
         <div className=" w-full rounded-3xl ">
             <input type="checkbox" id="input9" className="absolute peer opacity-0"/>
             <div className="flex items-center flex-wrap mt-auto w-full border-b border-gray-200 py-5">
-              <label htmlFor="input9" className="flex items-center p-3 inline-flex text-xl">Does monday.com offer plans to nonprofits and NGOs?</label>
+              <label htmlFor="input9" className="flex items-center p-3 inline-flex text-xl">Does theaccountentai.com offer plans to nonprofits and NGOs?</label>
               <span className="text-black mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3" >
               <label htmlFor="input9"><FontAwesomeIcon icon={faChevronDown} className="w-5 h-5 ml-auto inline-flex"/></label>
               </span>
@@ -357,7 +358,7 @@ export default function Pricing() {
         <div className=" w-full rounded-3xl ">
             <input type="checkbox" id="input12" className="absolute peer opacity-0"/>
             <div className="flex items-center flex-wrap mt-auto w-full border-b border-gray-200 py-5">
-              <label htmlFor="input12" className="flex items-center p-3 inline-flex text-xl">How secure is acai.com?</label>
+              <label htmlFor="input12" className="flex items-center p-3 inline-flex text-xl">How secure is theaccountentai.com?</label>
               <span className="text-black mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3" >
               <label htmlFor="input12"><FontAwesomeIcon icon={faChevronDown} className="w-5 h-5 ml-auto inline-flex"/></label>
               </span>
@@ -409,10 +410,10 @@ export default function Pricing() {
   <section className="text-gray-600 body-font overflow-hidden">
     <div className="container px-5 sm:px-28 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-10">
-        <h1 className="sm:text-4xl text-3xl title-font mb-2 text-gray-900">Start using acai.com today</h1>
+        <h1 className="sm:text-4xl text-3xl title-font mb-2 text-gray-900">Start using theaccountentai.com today</h1>
         <p className="lg:w-2/3 mx-auto leading-relaxed text-xl text-gray-500">Try it now for free / No credit card needed</p>
         <div className="flex mx-auto overflow-hidden mt-6">
-            <button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4"/></button>
+        <Link href="https://app.theaccountantai.com/" target="_blank"><button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4"/></button></Link>
         </div>
         </div>
     </div>

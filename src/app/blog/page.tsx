@@ -27,8 +27,8 @@ export default function Blog() {
         </form>
       <div className="container mx-auto bg-[#595AD4] rounded-xl flex px-5 sm:px-10 sm:py-20 py-5 md:flex-row flex-col items-center">
         <div className="lg:flex-grow flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-5 font-medium">Get started with ACAI to streamline your accounting system</h1>
-          <p className="text-lg md:w-1/2">The acai.com system center offers a variety of templates customizable for every industry, business, and team.</p>
+          <h1 className="title-font sm:text-4xl text-3xl mb-5 font-medium">Get started with The Accountant AI to streamline your accounting system</h1>
+          <p className="text-lg md:w-1/2">The theaccountantai.com system center offers a variety of templates customizable for every industry, business, and team.</p>
         </div>
       </div>
     </section>
@@ -50,42 +50,42 @@ export default function Blog() {
             <div className="object-center p-4 rounded-lg">
             <Image  alt="gallery" width="200" height="200" src="/category1.png" />
             </div>
-            <p className="leading-relaxed">Category 1</p>
+            <p className="leading-relaxed">Automate Imports</p>
         </div>
 
         <div className="p-4 md:w-1/6 w-1/2 w-full">
             <div className="object-center p-4 rounded-lg">
             <Image  alt="gallery" width="200" height="200" src="/category2.png" />
             </div>
-            <p className="leading-relaxed">Category 1</p>
+            <p className="leading-relaxed">Intelligent Accounting</p>
         </div>
 
         <div className="p-4 md:w-1/6 w-1/2 w-full">
             <div className="object-center p-4 rounded-lg">
             <Image  alt="gallery" width="200" height="200" src="/category3.png" />
             </div>
-            <p className="leading-relaxed">Category 1</p>
+            <p className="leading-relaxed">How to use</p>
         </div>
 
         <div className="p-4 md:w-1/6 w-1/2 w-full">
             <div className="object-center p-4 rounded-lg">
             <Image  alt="gallery" width="200" height="200" src="/category4.png" />
             </div>
-            <p className="leading-relaxed">Category 1</p>
+            <p className="leading-relaxed">Link Third-party apps</p>
         </div>
 
         <div className="p-4 md:w-1/6 w-1/2 w-full">
             <div className="object-center p-4 rounded-lg">
             <Image  alt="gallery" width="200" height="200" src="/category5.png" />
             </div>
-            <p className="leading-relaxed">Category 1</p>
+            <p className="leading-relaxed">Customise</p>
         </div>
 
         <div className="p-4 md:w-1/6 w-1/2 w-full">
             <div className="object-center p-4 rounded-lg">
             <Image  alt="gallery" width="200" height="200" src="/category6.png" />
             </div>
-            <p className="leading-relaxed">Category 1</p>
+            <p className="leading-relaxed">Help & Support</p>
         </div>
 
         </div>
@@ -113,7 +113,7 @@ export default function Blog() {
                 <div className="rounded-lg h-64 overflow-hidden">
                 <Image alt="content" className="object-cover object-center" width={600} height={500} src="/blog1.png"/>
                 </div>
-                <h2 className="text-xl font-bold title-font text-gray-900 mt-5">How acai words</h2>
+                <h2 className="text-xl font-bold title-font text-gray-900 mt-5">How theaccountantai words</h2>
                 <p className="text-lg leading-relaxed mt-2">Manage contacts and deals in one place&nbsp;&nbsp;</p>
             </div>
         </div>
@@ -123,7 +123,7 @@ export default function Blog() {
                 <div className="rounded-lg h-64 overflow-hidden">
                 <Image alt="content" className="object-cover object-center" width={600} height={500} src="/blog2.png"/>
                 </div>
-                <h2 className="text-xl font-bold title-font text-gray-900 mt-5">How acai helps </h2>
+                <h2 className="text-xl font-bold title-font text-gray-900 mt-5">How theaccountantai helps </h2>
                 <p className="text-lg leading-relaxed mt-2">Plan all your upcoming campaigns in a visual way.</p>
             </div>
         </div>
@@ -133,7 +133,7 @@ export default function Blog() {
                 <div className="rounded-lg h-64 overflow-hidden">
                 <Image alt="content" className="object-cover object-center" width={600} height={500} src="/blog3.png"/>
                 </div>
-                <h2 className="text-xl font-bold title-font text-gray-900 mt-5">ACAI automated system</h2>
+                <h2 className="text-xl font-bold title-font text-gray-900 mt-5">theaccountantai automated system</h2>
                 <p className="text-lg leading-relaxed mt-2">Manage simple to complex projects across multiple teams and departments.</p>
             </div>
         </div>

@@ -25,21 +25,21 @@ export default function Footer()
                 <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Contact us</a>
                 </li>
-                <li className="mb-5">
+                {/* <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Templates</a>
-                </li>
+                </li> */}
                 <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">SMB</a>
                 </li>
                 <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Enterprise</a>
                 </li>
-                <li className="mb-5">
+                {/* <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Nonprofits</a>
                 </li>
                 <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Apps marketplace</a>
-                </li>
+                </li> */}
                 <li>
                     <a className="text-gray-600 hover:text-gray-800">24/7 support</a>
                 </li>
@@ -48,9 +48,9 @@ export default function Footer()
             <div className="lg:w-1/6 md:w-1/2 w-full px-4">
                 <h2 className="title-font font-medium text-gray-600 text-lg mb-5">Features</h2>
                 <nav className="list-none mb-10">
-                <li className="mb-5">
+                {/* <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Docs</a>
-                </li>
+                </li> */}
                 <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Integrations</a>
                 </li>
@@ -60,7 +60,7 @@ export default function Footer()
                 <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Files</a>
                 </li>
-                <li className="mb-5">
+                {/* <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Dashboards</a>
                 </li>
                 <li className="mb-5">
@@ -68,10 +68,10 @@ export default function Footer()
                 </li>
                 <li>
                     <a className="text-gray-600 hover:text-gray-800">Gantt</a>
-                </li>
+                </li> */}
                 </nav>
             </div>
-            <div className="lg:w-1/6 md:w-1/2 w-full px-4">
+            {/* <div className="lg:w-1/6 md:w-1/2 w-full px-4">
                 <h2 className="title-font font-medium text-gray-600 text-lg mb-5">ACAI features</h2>
                 <nav className="list-none mb-10">
                 <li className="mb-5">
@@ -97,26 +97,26 @@ export default function Footer()
                     <a className="inline-flex text-gray-600 hover:text-gray-800"><Image src="/workform.png" width="25" height="15" alt="work management" className="mr-2"/>WorkForms</a>
                 </li>
                 </nav>
-            </div>
+            </div> */}
             <div className="lg:w-1/6 md:w-1/2 w-full px-4">
                 <h2 className="title-font font-medium text-gray-600 text-lg mb-5">Use cases</h2>
                 <nav className="list-none mb-10">
                 <li className="mb-5">
-                    <a className="text-gray-600 hover:text-gray-800">Marketing</a>
+                    <a className="text-gray-600 hover:text-gray-800">Finiance Firms</a>
                 </li>
                 <li className="mb-5">
-                    <a className="text-gray-600 hover:text-gray-800">Project management</a>
+                    <a className="text-gray-600 hover:text-gray-800">Small Businesses</a>
                 </li>
                 <li className="mb-5">
-                    <a className="text-gray-600 hover:text-gray-800">Sales</a>
+                    <a className="text-gray-600 hover:text-gray-800">Startups</a>
                 </li>
                 <li className="mb-5">
-                    <a className="text-gray-600 hover:text-gray-800">Developers</a>
+                    <a className="text-gray-600 hover:text-gray-800">Small Accounting Firms</a>
                 </li>
                 <li className="mb-5">
-                    <a className="text-gray-600 hover:text-gray-800">HR</a>
+                    <a className="text-gray-600 hover:text-gray-800">Enterprice</a>
                 </li>
-                <li className="mb-5">
+                {/* <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">IT</a>
                 </li>
                 <li className="mb-5">
@@ -124,7 +124,7 @@ export default function Footer()
                 </li>
                 <li>
                     <a className="text-gray-600 hover:text-gray-800">Construction</a>
-                </li>
+                </li> */}
                 </nav>
             </div>
             <div className="lg:w-1/6 md:w-1/2 w-full px-4">
@@ -133,7 +133,7 @@ export default function Footer()
                 <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">About us</a>
                 </li>
-                <li className="mb-5">
+                {/* <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Careers - We are hiring!</a>
                 </li>
                 <li className="mb-5">
@@ -159,7 +159,7 @@ export default function Footer()
                 </li>
                 <li>
                     <a className="text-gray-600 hover:text-gray-800">Investor relations</a>
-                </li>
+                </li> */}
                 </nav>
             </div>
             <div className="lg:w-1/6 md:w-1/2 w-full px-4">
@@ -168,13 +168,13 @@ export default function Footer()
                 <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Help Center</a>
                 </li>
-                <li className="mb-5">
+                {/* <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Community</a>
-                </li>
+                </li> */}
                 <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Blog</a>
                 </li>
-                <li className="mb-5">
+                {/* <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Webinars</a>
                 </li>
                 <li className="mb-5">
@@ -191,7 +191,7 @@ export default function Footer()
                 </li>
                 <li>
                     <a className="text-gray-600 hover:text-gray-800">Compare</a>
-                </li>
+                </li> */}
                 </nav>
             </div>
             </div>
