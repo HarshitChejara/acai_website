@@ -70,7 +70,7 @@ export default function AboutUs() {
       <div className="lg:w-1/3 lg:mb-0 mb-6 p-5 sm:py-12 rounded-lg shadow-md hover:shadow-2xl">
         <div className="h-full text-center">
           <Image alt="testimonial" width={50} height={50} className="w-20 h-20 mb-8 object-cover object-center inline-block " src="/japan.png"/>
-          <h1 className="text-[#595AD4] font-bold title-font text-xl">We're live in Japan</h1>
+          <h1 className="text-[#595AD4] font-bold title-font text-xl">We are live in Japan</h1>
           <p className="leading-relaxed py-5 p-5">Welcome to our new team in the Land of the Rising Sun. We’re excited to continue <span className="text-[#595AD4]">growing our presence in the Asia Pacific and Japan</span> region with our business launch in Tokyo and Singapore.</p>
           <h2 className="text-gray-900 font-medium title-font text-lg">October 2022</h2>
         </div>

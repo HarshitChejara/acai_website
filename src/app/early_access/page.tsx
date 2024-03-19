@@ -164,7 +164,7 @@ export default function EarlyAccess() {
             </div>
           <div className="w-full">
             <h2 className="title-font font-bold text-xl text-gray-900 py-5">Workload</h2>
-            <p className="mb-4 text-lg">Get a clear breakdown of your team's resource capacity to improve workflow</p>
+            <p className="mb-4 text-lg">Get a clear breakdown of your team resource capacity to improve workflow</p>
           </div>
         </div>
       </div>
