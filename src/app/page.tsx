@@ -210,31 +210,31 @@ export default function Home() {
           </h1>
         </div>
         <div className="flex flex-wrap text-center bg-[#F7F7FA] border-t border-b border-[#E7DAED] ">
-          <div className="p-4 md:w-1/5 sm:w-1/2 w-full">
+          <div className="p-4 md:w-1/5 w-1/2 w-full">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/quickbooks.png"/>
             </div>
           </div>
 
-          <div className="p-4 md:w-1/5 sm:w-1/2 w-full">
+          <div className="p-4 md:w-1/5 w-1/2 w-full">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/xero.png"/>
             </div>
           </div>
 
-          <div className="p-4 md:w-1/5 sm:w-1/2 w-full">
+          <div className="p-4 md:w-1/5 w-1/2 w-full">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/drive.png"/>
             </div>
           </div>
 
-          <div className="p-4 md:w-1/5 sm:w-1/2 w-full">
+          <div className="p-4 md:w-1/5 w-1/2 w-full">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={80} height={80} src="/cloud.png"/>
             </div>
           </div>
 
-          <div className="p-4 md:w-1/5 sm:w-1/2 w-full">
+          <div className="p-4 md:w-1/5 w-1/2 w-full">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/netsuite.png"/>
             </div>
