@@ -23,9 +23,9 @@ const Header = () => {
         </div>
         <div className="bg-transparent md:ml-auto">
           <div className="hidden sm:flex text-gray-600 items-center justify-center gap-2 md:gap-8">
-            <Link href="">Blogs</Link>
-            <Link href="">Early access</Link>
-            <Link href="">Pricing</Link>
+            <Link href="blog">Blogs</Link>
+            <Link href="early_access">Early access</Link>
+            <Link href="pricing">Pricing</Link>
           </div>
         </div>
 
@@ -67,9 +67,9 @@ const Header = () => {
                   <Link className="text-black focus:outline-none px-2 font-bold" href="">Use cases</Link>  
                   <Link className="text-black focus:outline-none px-2 font-bold" href="">Features</Link>
                   <Link className="text-black focus:outline-none px-2 font-bold" href="">Resources</Link>  
-                  <Link className="text-black focus:outline-none px-2 font-bold" href="">Blogs</Link>
-                  <Link className="text-black focus:outline-none px-2 font-bold" href="">Early access</Link>
-                  <Link className="text-black focus:outline-none px-2 font-bold" href="">Pricing</Link>
+                  <Link className="text-black focus:outline-none px-2 font-bold" href="blog">Blogs</Link>
+                  <Link className="text-black focus:outline-none px-2 font-bold" href="early_access">Early access</Link>
+                  <Link className="text-black focus:outline-none px-2 font-bold" href="pricing">Pricing</Link>
                 </nav>
               </div>
               
