@@ -7,7 +7,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-
+import Link from "next/link";
 
 export default function Footer()
 {
@@ -15,7 +15,7 @@ export default function Footer()
         <React.Fragment>
         <footer className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
-            <div className="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
+            <div className="flex flex-wrap md:text-left  -mb-10 -mx-4">
             <div className="lg:w-1/6 md:w-1/2 w-full px-4">
                 <h2 className="title-font font-medium text-gray-600 text-lg mb-5">&nbsp;</h2>
                 <nav className="list-none mb-10">
@@ -197,24 +197,25 @@ export default function Footer()
             </div>
         </div>
         <div className="border-t border-gray-200">
-            <div className="container px-5 py-8 flex flex-wrap mx-auto items-center">            
+            <div className="container px-5 py-8 flex flex-wrap mx-auto items-center">
 
                 <span className="inline-flex  lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
-                    <a className="text-gray-500">
+                    <a className="text-gray-500" href="https://linkedin.com" target="_blank">
                     <FontAwesomeIcon icon={faLinkedinIn} className="h-6 w-6"/>
                     </a>
-                    <a className="ml-3 text-gray-500">
+                    <a className="ml-3 text-gray-500" href="https://facebook.com" target="_blank">
                     <FontAwesomeIcon icon={faFacebook} className="h-6 w-6"/>
                     </a>
-                    <a className="ml-3 text-gray-500">
+                    <a className="ml-3 text-gray-500" href="https://twitter.com" target="_blank">
                     <FontAwesomeIcon icon={faTwitter} className="h-6 w-6"/>
                     </a>
-                    <a className="ml-3 text-gray-500">
+                    <a className="ml-3 text-gray-500" href="https://instagram.com" target="_blank">
                     <FontAwesomeIcon icon={faInstagram} className="h-6 w-6"/>
                     </a>
                 </span>
 
                 <div className="flex md:flex-nowrap lg:ml-auto flex-wrap justify-center items-end md:justify-start">
+                    <Link href="https://play.google.com/store/apps?hl=en_IN&gl=US" target="_blank">
                     <div className="flex mt-3 w-48 h-14 bg-black text-white rounded-lg items-center justify-center">
                         <div className="mr-3">
                             <svg viewBox="30 336.7 120.9 129.2" width="30">
@@ -229,7 +230,9 @@ export default function Footer()
                             <div className="text-xl font-semibold font-sans -mt-1">Google Play</div>
                         </div>
                     </div>
-                    <div className="flex mt-3 w-48 h-14 bg-black ml-4 text-white rounded-xl items-center justify-center">
+                    </Link>
+                    <Link href="https://www.apple.com/in/app-store/" target="_blank">
+                    <div className="flex mt-3 w-48 h-14 bg-black sm:ml-4 text-white rounded-xl items-center justify-center">
                         <div className="mr-3">
                             <svg viewBox="0 0 384 512" width="30" >
                                 <path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/>
@@ -240,6 +243,7 @@ export default function Footer()
                             <div className="text-2xl font-semibold font-sans -mt-1">App Store</div>
                         </div>
                     </div>
+                    </Link>
                 </div>
 
             </div>

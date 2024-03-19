@@ -81,7 +81,7 @@ export default function Home() {
     <section className="text-gray-600 bg-[#F9F9FF] body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-          <h1 className="sm:text-4xl text-2xl font-bold title-font mb-2 text-gray-900">Our premium features</h1>
+          <h1 className="sm:text-4xl text-3xl font-bold title-font mb-2 text-gray-900">Our premium features</h1>
         </div>
         <div className="flex flex-wrap -m-4">
 
@@ -157,15 +157,15 @@ export default function Home() {
 
 
 
-    <section className="text-white px-12  body-font">
+    <section className="text-white px-12 sm:py-1 py-12 body-font">
       <div className="container bg-[#00854D] rounded-2xl sm:px-32 py-12 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="sm:text-8xl text-2xl font-bold title-font mb-4">Lets talk numbers</h1>
+          <h1 className="sm:text-8xl text-3xl font-bold title-font mb-4">Lets talk numbers</h1>
         </div>
         <div className="flex flex-wrap -m-4 text-center">
 
           <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-            <div className="border-r-2 border-[#00CA72] px-4 py-6">
+            <div className="border-r-2 border-[#00CA72] px-4 sm:py-6">
               <h2 className="title-font font-bold text-5xl mb-5">0,500+</h2>
               <p className="leading-relaxed">Time Saved</p>
             </div>
@@ -209,7 +209,7 @@ export default function Home() {
             <br className="hidden lg:inline-block"/>other platforms
           </h1>
         </div>
-        <div className="flex flex-wrap -m-4 text-center bg-[#F7F7FA] border-t border-b border-[#E7DAED] ">
+        <div className="flex flex-wrap text-center bg-[#F7F7FA] border-t border-b border-[#E7DAED] ">
           <div className="p-4 md:w-1/5 sm:w-1/2 w-full">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/quickbooks.png"/>
@@ -422,44 +422,44 @@ export default function Home() {
           <br className="hidden lg:inline-block"/><span className="font-bold">through ACAI works</span>
           </h1>
         </div>
-        <div className="flex flex-wrap -m-4 px-32">
+        <div className="flex flex-wrap -m-4 sm:px-32 px-8">
 
-          <div className="lg:w-1/2 lg:mb-0 mb-6 p-20">
+          <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20">
             <div className="h-full text-center">
               <h1 className="text-white bg-[#1F0F83] text-3xl py-5 w-20 h-20 object-center inline-block rounded-full mb-8">1</h1>
               <p className="leading-relaxed text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet risus fringilla, egestas elit a, consequat augue. Phasellus sollicitudin felis mi, quis egestas ex ornare sed sollicitudin.</p>
             </div>
           </div>
 
-          <div className="lg:w-1/2 lg:mb-0 mb-6 p-20">
+          <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20">
             <div className="h-full text-center">
               <h1 className="text-white bg-[#1F0F83] text-3xl py-5 w-20 h-20 object-center inline-block rounded-full mb-8">2</h1>
               <p className="leading-relaxed text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet risus fringilla, egestas elit a, consequat augue. Phasellus sollicitudin felis mi, quis egestas ex ornare sed sollicitudin.</p>
             </div>
           </div>
 
-          <div className="lg:w-1/2 lg:mb-0 mb-6 p-20">
+          <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20">
             <div className="h-full text-center">
               <h1 className="text-white bg-[#1F0F83] text-3xl py-5 w-20 h-20 object-center inline-block rounded-full mb-8">3</h1>
               <p className="leading-relaxed text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet risus fringilla, egestas elit a, consequat augue. Phasellus sollicitudin felis mi, quis egestas ex ornare sed sollicitudin.</p>
             </div>
           </div>
 
-          <div className="lg:w-1/2 lg:mb-0 mb-6 p-20">
+          <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20">
             <div className="h-full text-center">
               <h1 className="text-white bg-[#1F0F83] text-3xl py-5 w-20 h-20 object-center inline-block rounded-full mb-8">4</h1>
               <p className="leading-relaxed text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet risus fringilla, egestas elit a, consequat augue. Phasellus sollicitudin felis mi, quis egestas ex ornare sed sollicitudin.</p>
             </div>
           </div>
 
-          <div className="lg:w-1/2 lg:mb-0 mb-6 p-20">
+          <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20">
             <div className="h-full text-center">
               <h1 className="text-white bg-[#1F0F83] text-3xl py-5 w-20 h-20 object-center inline-block rounded-full mb-8">5</h1>
               <p className="leading-relaxed text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet risus fringilla, egestas elit a, consequat augue. Phasellus sollicitudin felis mi, quis egestas ex ornare sed sollicitudin.</p>
             </div>
           </div>
 
-          <div className="lg:w-1/2 lg:mb-0 mb-6 p-20">
+          <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20">
             <div className="h-full text-center">
               <h1 className="text-white bg-[#1F0F83] text-3xl py-5 w-20 h-20 object-center inline-block rounded-full mb-8">6</h1>
               <p className="leading-relaxed text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet risus fringilla, egestas elit a, consequat augue. Phasellus sollicitudin felis mi, quis egestas ex ornare sed sollicitudin.</p>
@@ -560,8 +560,8 @@ export default function Home() {
 
 
 
-    <section className="text-white body-font sm:px-28 sm:py-28">
-      <div className="container mx-auto bg-[#1F0F83] rounded-3xl flex px-5 sm:px-20 md:flex-row flex-col items-center">
+    <section className="text-white body-font sm:px-28 px-5 sm:py-28">
+      <div className="container mx-auto bg-[#1F0F83] rounded-3xl flex px-5 sm:px-20 sm:py-1 py-5 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-20 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-5xl text-3xl mb-12 font-medium">Streamline your accounting
             <br className="hidden lg:inline-block"/>system with ACAI
