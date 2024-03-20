@@ -87,7 +87,7 @@ export default function Home() {
         <div className="flex flex-wrap -m-4">
 
           <div className="xl:w-1/4 md:w-1/2 p-4">
-            <div className="bg-white hover:border-[#FFC107] border hover:translate-y-6 shadow-lg p-6 rounded-lg">
+            <div className="bg-white hover:border-[#FFC107] border hover:translate-y-6 shadow-lg p-6 rounded-lg h-full">
               <div className="w-16 h-16 inline-flex border border-[#57007B] items-center justify-center rounded-full bg-white text-indigo-500 mb-4">
                 <Image alt="mobile app" width={50} height={50} src="/mobile_app.png"/>
               </div>
@@ -97,7 +97,7 @@ export default function Home() {
           </div>
 
           <div className="xl:w-1/4 md:w-1/2 p-4">
-            <div className="bg-white hover:border-[#FFC107] border hover:translate-y-6 shadow-lg p-6 rounded-lg">
+            <div className="bg-white hover:border-[#FFC107] border hover:translate-y-6 shadow-lg p-6 rounded-lg h-full">
               <div className="w-16 h-16 inline-flex border border-[#57007B] items-center justify-center rounded-full bg-white text-indigo-500 mb-4">
                 <Image alt="mobile app" width={40} height={40} src="/Code_perspective.png"/>
               </div>
@@ -107,7 +107,7 @@ export default function Home() {
           </div>
 
           <div className="xl:w-1/4 md:w-1/2 p-4">
-            <div className="bg-white hover:border-[#FFC107] border hover:translate-y-6 shadow-lg p-6 rounded-lg">
+            <div className="bg-white hover:border-[#FFC107] border hover:translate-y-6 shadow-lg p-6 rounded-lg h-full">
               <div className="w-16 h-16 inline-flex border border-[#57007B] items-center justify-center rounded-full bg-white text-indigo-500 mb-4">
                 <Image alt="mobile app" width={40} height={40} src="/Dashboard.png"/>
               </div>
@@ -117,7 +117,7 @@ export default function Home() {
           </div>
 
           <div className="xl:w-1/4 md:w-1/2 p-4">
-            <div className="bg-white hover:border-[#FFC107] border hover:translate-y-6 shadow-lg p-6 rounded-lg">
+            <div className="bg-white hover:border-[#FFC107] border hover:translate-y-6 shadow-lg p-6 rounded-lg h-full">
               <div className="w-16 h-16 inline-flex border border-[#57007B] items-center justify-center rounded-full bg-white text-indigo-500 mb-4">
                 <Image alt="mobile app" width={50} height={50} src="/mobile_app.png"/>
               </div>

@@ -20,10 +20,10 @@ export default function Footer()
                 <h2 className="title-font font-medium text-gray-600 text-lg mb-5">&nbsp;</h2>
                 <nav className="list-none mb-10">
                 <li className="mb-5">
-                    <a className="text-gray-600 hover:text-gray-800">Pricing</a>
+                    <a href="pricing" className="text-gray-600 hover:text-gray-800">Pricing</a>
                 </li>
                 <li className="mb-5">
-                    <a className="text-gray-600 hover:text-gray-800">Contact us</a>
+                    <a href="contact" className="text-gray-600 hover:text-gray-800">Contact us</a>
                 </li>
                 {/* <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Templates</a>
@@ -131,7 +131,7 @@ export default function Footer()
                 <h2 className="title-font font-medium text-gray-600 text-lg mb-5">Company</h2>
                 <nav className="list-none mb-10">
                 <li className="mb-5">
-                    <a className="text-gray-600 hover:text-gray-800">About us</a>
+                    <a href="about" className="text-gray-600 hover:text-gray-800">About us</a>
                 </li>
                 {/* <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Careers - We are hiring!</a>
@@ -172,7 +172,7 @@ export default function Footer()
                     <a className="text-gray-600 hover:text-gray-800">Community</a>
                 </li> */}
                 <li className="mb-5">
-                    <a className="text-gray-600 hover:text-gray-800">Blog</a>
+                    <a href="blog" className="text-gray-600 hover:text-gray-800">Blog</a>
                 </li>
                 {/* <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Webinars</a>

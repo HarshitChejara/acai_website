@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -13,7 +14,7 @@ export default function EarlyAccess() {
         <br className="hidden lg:inline-block"/><span className="font-bold">for streamlining your accounting system</span>
         </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-lg sm:px-48">From product strategy to launch, manage it all with one flexible platform. What would you like to manage with your product management software?</p>
-            <button className="flex mx-auto sm:mt-28 text-white bg-[#6161FF] border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4 sm:py-2 py-2 ml-2"/></button>
+            <Link href="https://app.theaccountantai.com/" target="_blank"><button className="flex mx-auto sm:mt-28 text-white bg-[#6161FF] border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4 sm:py-2 py-2 ml-2"/></button></Link>
             <p className="mt-3 leading-relaxed">No credit card needed ✦ Unlimited time on Free plan</p>
         </div>
         <div className="flex flex-wrap -m-4 sm:mt-96">
@@ -58,8 +59,8 @@ export default function EarlyAccess() {
         </div>
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-44 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Get a bird’s eye view in a snap</h1>
-      <p className="mb-8 leading-relaxed text-lg">monday.com equips you with the tools to create custom dashboards and track progress, timelines and budgets at a glance. Easily run reports from a high-level overview down to very last detail.</p>
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Get a birds eye view in a snap</h1>
+      <p className="mb-8 leading-relaxed text-lg">theaccountantai.com equips you with the tools to create custom dashboards and track progress, timelines and budgets at a glance. Easily run reports from a high-level overview down to very last detail.</p>
     </div>
   </div>
 </section>
@@ -101,7 +102,7 @@ export default function EarlyAccess() {
             <div className="flex flex-col text-center w-full mb-10">
             <h1 className="sm:text-4xl text-3xl title-font mb-2 text-black">Start your 14-day free trial</h1>
             <div className="flex mx-auto overflow-hidden mt-6">
-                <button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4"/></button>
+            <Link href="https://app.theaccountantai.com/" target="_blank"><button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4"/></button></Link>
             </div>
             </div>
         </div>
@@ -229,9 +230,9 @@ export default function EarlyAccess() {
   <section className="bg-[#2B2C5D] body-font overflow-hidden sm:mb-32">
     <div className="container px-5 sm:px-28 py-16 mx-auto">
         <div className="flex flex-col text-center w-full mb-10">
-        <h1 className="sm:text-5xl text-3xl title-font mb-2 text-white">See why over customers are choosing acai.com</h1>
+        <h1 className="sm:text-5xl text-3xl title-font mb-2 text-white">See why over customers are choosing theaccountantai.com</h1>
         <div className="flex mx-auto overflow-hidden mt-6">
-            <button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4"/></button>
+        <Link href="https://app.theaccountantai.com/" target="_blank"><button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4"/></button></Link>
         </div>
         </div>
     </div>

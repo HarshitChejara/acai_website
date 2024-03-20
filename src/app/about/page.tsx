@@ -36,7 +36,7 @@ export default function AboutUs() {
     <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 sm:px-32 py-24 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-32 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <p className="mb-8 leading-relaxed text-lg">As we integrated and automated, built workflows, created templates, and expanded our community beyond our wildest expectations, we continued to grow. It is through this journey that the monday.com Work OS was born.</p>
+            <p className="mb-8 leading-relaxed text-lg">As we integrated and automated, built workflows, created templates, and expanded our community beyond our wildest expectations, we continued to grow. It is through this journey that the theaccountantai.com Work OS was born.</p>
             </div>
             <div className="flex lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <Image className="object-cover object-center rounded" width={600} height={300} alt="hero" src="/about2.png"/>
@@ -55,7 +55,7 @@ export default function AboutUs() {
       <Image className="object-cover object-center rounded" width={600} height={300} alt="hero" src="/about3.png"/>
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-32 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <p className="mb-8 leading-relaxed text-lg">June 10th, 2021 marked the start of a new era for monday.com—we rang the opening bell and officially became a publicly traded company on Nasdaq.</p>
+      <p className="mb-8 leading-relaxed text-lg">June 10th, 2021 marked the start of a new era for theaccountantai.com — we rang the opening bell and officially became a publicly traded company on Nasdaq.</p>
       <p className="mb-8 leading-relaxed text-lg">These days, we continue to fuel our growth by evolving into a multi-product company, providing people, teams, and companies powerful products to help turn their work visions into a reality. <span className="text-black font-bold">We are only just getting started.</span></p>
     </div>
   </div>
@@ -221,7 +221,7 @@ export default function AboutUs() {
               </div>
               <div className="p-3">
                 <h2 className="font-bold title-font text-gray-900">Read</h2>
-                <h2 className="text-2xl font-bold title-font text-gray-900 py-3">How acai help accounting</h2>
+                <h2 className="text-2xl font-bold title-font text-gray-900 py-3">How The Accountant AI help accounting</h2>
                 <p className="text-base leading-relaxed">Check out some of our favorite articles over the years!</p>
               </div>
             </div>
