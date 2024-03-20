@@ -146,31 +146,31 @@ export default function Pricing() {
           <div className="flex flex-col text-center w-full py-14 px-14">
             <h1 className="sm:text-4xl text-2xl title-font text-gray-700">Our integrations with other workspaces</h1>
           </div>
-          <div className="p-4 md:w-1/5 w-1/2 w-full">
+          <div className="p-4 md:w-1/5 w-1/2">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/quickbooks.png"/>
             </div>
           </div>
 
-          <div className="p-4 md:w-1/5 w-1/2 w-full">
+          <div className="p-4 md:w-1/5 w-1/2">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/xero.png"/>
             </div>
           </div>
 
-          <div className="p-4 md:w-1/5 w-1/2 w-full">
+          <div className="p-4 md:w-1/5 w-1/2">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/drive.png"/>
             </div>
           </div>
 
-          <div className="p-4 md:w-1/5 w-1/2 w-full">
+          <div className="p-4 md:w-1/5 w-1/2">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={80} height={80} src="/cloud.png"/>
             </div>
           </div>
 
-          <div className="p-4 md:w-1/5 w-1/2 w-full">
+          <div className="p-4 md:w-1/5 w-1/2">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/netsuite.png"/>
             </div>

@@ -211,31 +211,31 @@ export default function Home() {
           </h1>
         </div>
         <div className="flex flex-wrap text-center bg-[#F7F7FA] border-t border-b border-[#E7DAED] ">
-          <div className="p-4 md:w-1/5 w-1/2 w-full">
+          <div className="p-4 md:w-1/5 w-1/2">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/quickbooks.png"/>
             </div>
           </div>
 
-          <div className="p-4 md:w-1/5 w-1/2 w-full">
+          <div className="p-4 md:w-1/5 w-1/2">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/xero.png"/>
             </div>
           </div>
 
-          <div className="p-4 md:w-1/5 w-1/2 w-full">
+          <div className="p-4 md:w-1/5 w-1/2">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/drive.png"/>
             </div>
           </div>
 
-          <div className="p-4 md:w-1/5 w-1/2 w-full">
+          <div className="p-4 md:w-1/5 w-1/2">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={80} height={80} src="/cloud.png"/>
             </div>
           </div>
 
-          <div className="p-4 md:w-1/5 w-1/2 w-full">
+          <div className="p-4 md:w-1/5 w-1/2">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/netsuite.png"/>
             </div>
@@ -425,42 +425,42 @@ export default function Home() {
         </div>
         <div className="flex flex-wrap -m-4 sm:px-32 px-8">
 
-          <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20">
+          <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20 w-full">
             <div className="h-full text-center">
               <h1 className="text-white bg-[#1F0F83] text-3xl py-5 w-20 h-20 object-center inline-block rounded-full mb-8">1</h1>
               <p className="leading-relaxed text-left">Regester on The Accountant AI.</p>
             </div>
           </div>
 
-          <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20">
+          <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20 w-full">
             <div className="h-full text-center">
               <h1 className="text-white bg-[#1F0F83] text-3xl py-5 w-20 h-20 object-center inline-block rounded-full mb-8">2</h1>
               <p className="leading-relaxed text-left">Create your first company on The Accountant AI. You can create more than one company.</p>
             </div>
           </div>
 
-          <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20">
+          <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20 w-full">
             <div className="h-full text-center">
               <h1 className="text-white bg-[#1F0F83] text-3xl py-5 w-20 h-20 object-center inline-block rounded-full mb-8">3</h1>
               <p className="leading-relaxed text-left">Link your accounting system on theacountantai.com. We support Xero, Quickbooks, NetSuite bookkeeping software integrations. More comming soon.</p>
             </div>
           </div>
 
-          <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20">
+          <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20 w-full">
             <div className="h-full text-center">
               <h1 className="text-white bg-[#1F0F83] text-3xl py-5 w-20 h-20 object-center inline-block rounded-full mb-8">4</h1>
               <p className="leading-relaxed text-left">Import single File or import files in bulk. The Accountant AI supports JPG/ JPEG/ EXCEL/ CSV/ PDF/ WORD file formats.</p>
             </div>
           </div>
 
-          <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20">
+          <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20 w-full">
             <div className="h-full text-center">
               <h1 className="text-white bg-[#1F0F83] text-3xl py-5 w-20 h-20 object-center inline-block rounded-full mb-8">5</h1>
               <p className="leading-relaxed text-left">Setup custom Document Approval flows and edit before adding data to your accounting system.</p>
             </div>
           </div>
 
-          <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20">
+          <div className="lg:w-1/2 lg:mb-0 mb-6 sm:p-20 w-full">
             <div className="h-full text-center">
               <h1 className="text-white bg-[#1F0F83] text-3xl py-5 w-20 h-20 object-center inline-block rounded-full mb-8">6</h1>
               <p className="leading-relaxed text-left">Your Accounting is Automated now. Get Started here.</p>
@@ -563,7 +563,7 @@ export default function Home() {
 
     <section className="text-white body-font sm:px-28 px-5 sm:py-28">
       <div className="container mx-auto bg-[#1F0F83] rounded-3xl flex px-5 sm:px-20 sm:py-1 py-5 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-20 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-3 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-5xl text-3xl mb-12 font-medium">Streamline your accounting
             <br className="hidden lg:inline-block"/>system with The Accountant AI
           </h1>

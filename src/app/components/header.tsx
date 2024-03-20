@@ -56,7 +56,7 @@ const Header = () => {
           <div className="rounded-lg bg-white shadow-lg ring-1 ring-black ring-opaity-5 divide-y-2 divide-gray-50">
             <div className="px-5 pt-5 pb-6">
               <div className="flex item-center justify-between">
-                {/* <h1 className="text-black font-bold text-xl">Title</h1> */}
+                <Link href="/"><h1 className="text-black font-bold text-xl">The Accountant AI</h1></Link>
                 <div className="-mr-2">
                 <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500
                 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500">
@@ -84,7 +84,7 @@ const Header = () => {
         </Transition>
   
         <div className="hidden sm:block px-5 py-7 h-24">
-        <Link href="https://app.theaccountantai.com/" target="_blank"><button type="button" className="text-white rounded-full py-2 px-5 leading-6 bg-[#6C6CFF]">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4"/></button></Link>
+        <Link href="contact" target="_blank"><button type="button" className="text-white rounded-full py-2 px-5 leading-6 bg-[#6C6CFF]">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4"/></button></Link>
         </div>
       </Popover>
   );

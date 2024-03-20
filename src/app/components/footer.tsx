@@ -16,7 +16,7 @@ export default function Footer()
         <footer className="text-gray-600 body-font border-t">
         <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-wrap md:text-left  -mb-10 -mx-4">
-            <div className="lg:w-1/6 md:w-1/2 w-full px-4">
+            <div className="lg:w-1/5 md:w-1/2 w-full px-4">
                 <h2 className="title-font font-medium text-gray-600 text-lg mb-5">&nbsp;</h2>
                 <nav className="list-none mb-10">
                 <li className="mb-5">
@@ -45,7 +45,7 @@ export default function Footer()
                 </li>
                 </nav>
             </div>
-            <div className="lg:w-1/6 md:w-1/2 w-full px-4">
+            <div className="lg:w-1/5 md:w-1/2 w-full px-4">
                 <h2 className="title-font font-medium text-gray-600 text-lg mb-5">Features</h2>
                 <nav className="list-none mb-10">
                 {/* <li className="mb-5">
@@ -98,7 +98,7 @@ export default function Footer()
                 </li>
                 </nav>
             </div> */}
-            <div className="lg:w-1/6 md:w-1/2 w-full px-4">
+            <div className="lg:w-1/5 md:w-1/2 w-full px-4">
                 <h2 className="title-font font-medium text-gray-600 text-lg mb-5">Use cases</h2>
                 <nav className="list-none mb-10">
                 <li className="mb-5">
@@ -127,7 +127,7 @@ export default function Footer()
                 </li> */}
                 </nav>
             </div>
-            <div className="lg:w-1/6 md:w-1/2 w-full px-4">
+            <div className="lg:w-1/5 md:w-1/2 w-full px-4">
                 <h2 className="title-font font-medium text-gray-600 text-lg mb-5">Company</h2>
                 <nav className="list-none mb-10">
                 <li className="mb-5">
@@ -162,7 +162,7 @@ export default function Footer()
                 </li> */}
                 </nav>
             </div>
-            <div className="lg:w-1/6 md:w-1/2 w-full px-4">
+            <div className="lg:w-1/5 md:w-1/2 w-full px-4">
                 <h2 className="title-font font-medium text-gray-600 text-lg mb-5">Resources</h2>
                 <nav className="list-none mb-10">
                 <li className="mb-5">
