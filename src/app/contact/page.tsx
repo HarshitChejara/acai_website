@@ -118,7 +118,7 @@ export default function Contact() {
                 <span className="text-gray-500">industries</span>
                 </div>
                 <div className="md:flex-grow text-left pl-12 w-full">
-                <p className="leading-relaxed text-lg">Boost productivity from day one by building your team's ideal workflow</p>
+                <p className="leading-relaxed text-lg">Boost productivity from day one by building your teams ideal workflow</p>
                 </div>
             </div>
 
