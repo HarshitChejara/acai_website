@@ -264,7 +264,7 @@ export default function Footer()
                 <a className="underline">Status</a>
             </span>
             <p className="text-gray-500 text-sm text-center sm:text-left sm:ml-20">All Rights Reserved
-                <a href="#" className="text-gray-600 ml-1" target="_blank" rel="noopener noreferrer"> © acai.com</a>
+                <a href="#" className="text-gray-600 ml-1" target="_blank" rel="noopener noreferrer"> © theaccountantai.com</a>
             </p>
             <span className="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm underline">Accessibility statement</span>
             </div>
