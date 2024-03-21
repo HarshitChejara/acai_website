@@ -187,7 +187,7 @@ export default function Solutions() {
       <Image className="object-cover object-center rounded" width={500} height={500} alt="profile3" src="/profile4.png"/>
     </div>
   </div>
-  
+
   <h1 className="text-2xl text-center mt-20">Try The Accountant AI for free</h1>
   <Link href="https://app.theaccountantai.com" target="_blank"><button className="flex mx-auto mt-10 text-white bg-[#6C6CFF] border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Get Started <FontAwesomeIcon icon={faArrowRight} className="mt-2 pl-4 h-4 w-4"/></button></Link>
 </section>

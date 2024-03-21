@@ -14,9 +14,16 @@ export default function Footer()
     return(
         <React.Fragment>
         <footer className="text-gray-600 body-font border-t">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 sm:px-20 py-24 mx-auto">
             <div className="flex flex-wrap md:text-left  -mb-10 -mx-4">
-            <div className="lg:w-1/5 md:w-1/2 w-full px-4">
+
+            <div className="lg:w-1/6 md:w-1/2 w-full px-4">
+                <h2 className="title-font font-bold text-black text-xl mb-5">AccountantAI</h2>
+                <div className="list-none mb-10">
+                    <p className="mb-5 text-gray-600">Transforming Industries through Innovative Technology</p>
+                </div>
+            </div>
+            <div className="lg:w-1/6 md:w-1/2 w-full px-4">
                 <h2 className="title-font font-medium text-gray-600 text-lg mb-5">&nbsp;</h2>
                 <nav className="list-none mb-10">
                 <li className="mb-5">
@@ -45,8 +52,8 @@ export default function Footer()
                 </li>
                 </nav>
             </div>
-            <div className="lg:w-1/5 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-gray-600 text-lg mb-5">Features</h2>
+            <div className="lg:w-1/6 md:w-1/2 w-full px-4">
+                <h2 className="title-font font-medium text-black text-lg mb-5">Features</h2>
                 <nav className="list-none mb-10">
                 {/* <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Docs</a>
@@ -98,8 +105,8 @@ export default function Footer()
                 </li>
                 </nav>
             </div> */}
-            <div className="lg:w-1/5 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-gray-600 text-lg mb-5">Use cases</h2>
+            <div className="lg:w-1/6 md:w-1/2 w-full px-4">
+                <h2 className="title-font font-medium text-black text-lg mb-5">Use cases</h2>
                 <nav className="list-none mb-10">
                 <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Finiance Firms</a>
@@ -114,7 +121,7 @@ export default function Footer()
                     <a className="text-gray-600 hover:text-gray-800">Small Accounting Firms</a>
                 </li>
                 <li className="mb-5">
-                    <a className="text-gray-600 hover:text-gray-800">Enterprice</a>
+                    <a className="text-gray-600 hover:text-gray-800">Enterprise</a>
                 </li>
                 {/* <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">IT</a>
@@ -127,8 +134,8 @@ export default function Footer()
                 </li> */}
                 </nav>
             </div>
-            <div className="lg:w-1/5 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-gray-600 text-lg mb-5">Company</h2>
+            <div className="lg:w-1/6 md:w-1/2 w-full px-4">
+                <h2 className="title-font font-medium text-black text-lg mb-5">Company</h2>
                 <nav className="list-none mb-10">
                 <li className="mb-5">
                     <a href="about" className="text-gray-600 hover:text-gray-800">About us</a>
@@ -162,8 +169,8 @@ export default function Footer()
                 </li> */}
                 </nav>
             </div>
-            <div className="lg:w-1/5 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-gray-600 text-lg mb-5">Resources</h2>
+            <div className="lg:w-1/6 md:w-1/2 w-full px-4">
+                <h2 className="title-font font-medium text-black text-lg mb-5">Resources</h2>
                 <nav className="list-none mb-10">
                 <li className="mb-5">
                     <a className="text-gray-600 hover:text-gray-800">Help Center</a>
@@ -197,7 +204,7 @@ export default function Footer()
             </div>
         </div>
         <div className="border-t border-gray-200">
-            <div className="container px-5 py-8 flex flex-wrap mx-auto items-center">
+            <div className="container px-5 sm:px-20 py-8 flex flex-wrap mx-auto items-center">
 
                 <span className="inline-flex  lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
                     <a className="text-gray-500" href="https://linkedin.com" target="_blank">
@@ -249,13 +256,13 @@ export default function Footer()
             </div>
         </div>
         {/* <div className="bg-gray-100"> */}
-            <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+            <div className="container mx-auto py-4 px-5 sm:px-20 mb-10 flex flex-wrap flex-col sm:flex-row">
             <span className="text-gray-500 text-sm text-center sm:text-left">
                 <a className="underline">Security</a>&nbsp;|&nbsp;
                 <a className="underline">Terms and privacy</a>&nbsp;|&nbsp;
                 <a className="underline">Privacy policy</a>&nbsp;|&nbsp;
                 <a className="underline">Status</a>
-            </span>   
+            </span>
             <p className="text-gray-500 text-sm text-center sm:text-left sm:ml-20">All Rights Reserved
                 <a href="#" className="text-gray-600 ml-1" target="_blank" rel="noopener noreferrer"> © acai.com</a>
             </p>
