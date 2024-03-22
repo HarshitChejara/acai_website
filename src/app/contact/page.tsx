@@ -18,7 +18,7 @@ const [Company_Size, setCompanySize]=useState('');
 const [Message, setMessage]=useState('');
 
 
-const handleSubmit=(e)=>{
+const handleSubmit=(e: React.FormEvent<HTMLFormElement>)=>{
     e.preventDefault();
     // console.log(First_Name,Last_Name,Email,Job_Title,Phone_Number,Company_Name,Company_Size,Message);
     const data={
