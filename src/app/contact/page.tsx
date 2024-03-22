@@ -1,9 +1,48 @@
-import Image from "next/image";
-import React from "react";
+"use client";
 
+import Image from "next/image";
+import React, { useState } from 'react';
+import axios from 'axios';
 
 
 export default function Contact() {
+
+
+const [First_Name, setFirstName]=useState('');
+const [Last_Name, setLastName]=useState('');
+const [Email, setEmail]=useState('');
+const [Job_Title, setJobTitle]=useState('');
+const [Phone_Number, setPhoneNumber]=useState('');
+const [Company_Name, setCompanyName]=useState('');
+const [Company_Size, setCompanySize]=useState('');
+const [Message, setMessage]=useState('');
+
+
+const handleSubmit=(e)=>{
+    e.preventDefault();
+    // console.log(First_Name,Last_Name,Email,Job_Title,Phone_Number,Company_Name,Company_Size,Message);
+    const data={
+        First_Name:First_Name,
+        Last_Name:Last_Name,
+        Email:Email,
+        Job_Title:Job_Title,
+        Phone_Number:Phone_Number,
+        Company_Name:Company_Name,
+        Company_Size:Company_Size,
+        Message:Message
+    }
+    axios.post('https://sheet.best/api/sheets/97ffc63f-993e-44de-87e1-b86f5a78fb35',data).then((response)=>{
+        // console.log(response);
+        setFirstName('');
+        setLastName('');
+        setEmail('');
+        setJobTitle('');
+        setPhoneNumber('');
+        setCompanyName('');
+        setCompanySize('');
+        setMessage('');
+    })
+}
     return (
     <React.Fragment>
 
@@ -12,69 +51,71 @@ export default function Contact() {
         <div className="flex flex-wrap -mx-4 -mb-10 text-center">
 
         <div className="sm:w-1/2 mb-10 sm:px-16">
-        <div className="container mx-auto rounded-3xl shadow-2xl shadow-[#1D8CF229] border-l-8 border-b-8 border-[#595AD4] py-10 px-12">
-            <div className="flex flex-col text-left w-full mb-12">
-                <h1 className="sm:text-3xl text-2xl title-font mb-4 text-gray-900">Contact our team</h1>
+            <div className="container mx-auto rounded-3xl shadow-2xl shadow-[#1D8CF229] border-l-8 border-b-8 border-[#595AD4] py-10 px-12">
+                <div className="flex flex-col text-left w-full mb-12">
+                    <h1 className="sm:text-3xl text-2xl title-font mb-4 text-gray-900">Contact our team</h1>
+                </div>
+                <div className=" mx-auto">
+                    <form className="form-group" onSubmit={handleSubmit} >
+                    <div className="flex flex-wrap -m-3 text-black">
+                        <div className="p-4 w-1/2">
+                            <div className="relative text-left">
+                                <label htmlFor="First_Name" className="leading-7 text-lg">First name <span className="text-red-500">*</span></label>
+                                <input type="text" id="First_Name" name="First_Name" onChange={(e)=>setFirstName(e.target.value)} value={First_Name} required className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+                            </div>
+                        </div>
+                        <div className="p-4 w-1/2">
+                            <div className="relative text-left">
+                                <label htmlFor="Last_Name" className="leading-7 text-lg">Last name <span className="text-red-500">*</span></label>
+                                <input type="text" id="Last_Name" name="Last_Name" onChange={(e)=>setLastName(e.target.value)} value={Last_Name} required className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+                            </div>
+                        </div>
+                        <div className="p-4 w-1/2">
+                            <div className="relative text-left">
+                                <label htmlFor="Email" className="leading-7 text-lg">Work email <span className="text-red-500">*</span></label>
+                                <input type="email" id="Email" name="Email" onChange={(e)=>setEmail(e.target.value)} value={Email} required className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+                            </div>
+                        </div>
+                        <div className="p-4 w-1/2">
+                            <div className="relative text-left">
+                                <label htmlFor="Job_Title" className="leading-7 text-lg">Job title</label>
+                                <input type="text" id="Job_Title" name="Job_Title" onChange={(e)=>setJobTitle(e.target.value)} value={Job_Title} className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+                            </div>
+                        </div>
+                        <div className="p-4 w-full">
+                            <div className="relative text-left">
+                                <label htmlFor="Phone_Number" className="leading-7 text-lg">Phone number <span className="text-red-500">*</span></label>
+                                <input type="text" id="Phone_Number" name="Phone_Number" onChange={(e)=>setPhoneNumber(e.target.value)} value={Phone_Number} required className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+                            </div>
+                        </div>
+                        <div className="p-4 w-1/2">
+                            <div className="relative text-left">
+                                <label htmlFor="Company_Name" className="leading-7 text-lg">Company name <span className="text-red-500">*</span></label>
+                                <input type="text" id="Company_Name" name="Company_Name" onChange={(e)=>setCompanyName(e.target.value)} value={Company_Name} required className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+                            </div>
+                        </div>
+                        <div className="p-4 w-1/2">
+                            <div className="relative text-left">
+                                <label htmlFor="Company_Size" className="leading-7 text-lg">Company size <span className="text-red-500">*</span></label>
+                                <input type="text" id="Company_Size" name="Company_Size" onChange={(e)=>setCompanySize(e.target.value)} value={Company_Size} required className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+                            </div>
+                        </div>
+                        <div className="p-4 w-full">
+                            <div className="relative text-left">
+                                <label htmlFor="Message" className="leading-7 text-lg">How can our team help you?</label>
+                                <textarea id="Message" name="Message" onChange={(e)=>setMessage(e.target.value)} value={Message} className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                            </div>
+                        </div>
+                        <div className="w-3/4 p-2 w-full mx-auto">
+                            <p className="text-center">By clicking submit, I acknowledge receipt of the theaccountantai.com  <span className="text-[#0000EE]">Privacy policy</span></p>
+                        </div>
+                        <div className="p-2 w-full">
+                            <button type="submit" className="flex mx-auto text-white bg-[#6161FF] border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Submit</button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
             </div>
-        <div className=" mx-auto">
-        <div className="flex flex-wrap -m-3 text-black">
-            <div className="p-4 w-1/2">
-            <div className="relative text-left">
-                <label htmlFor="name" className="leading-7 text-lg">First name <span className="text-red-500">*</span></label>
-                <input type="text" id="name" name="name" className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
-            </div>
-            </div>
-            <div className="p-4 w-1/2">
-            <div className="relative text-left">
-                <label htmlFor="email" className="leading-7 text-lg">Last name <span className="text-red-500">*</span></label>
-                <input type="email" id="email" name="email" className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
-            </div>
-            </div>
-            <div className="p-4 w-1/2">
-            <div className="relative text-left">
-                <label htmlFor="name" className="leading-7 text-lg">Work email <span className="text-red-500">*</span></label>
-                <input type="text" id="name" name="name" className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
-            </div>
-            </div>
-            <div className="p-4 w-1/2">
-            <div className="relative text-left">
-                <label htmlFor="email" className="leading-7 text-lg">Job title</label>
-                <input type="email" id="email" name="email" className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
-            </div>
-            </div>
-            <div className="p-4 w-full">
-            <div className="relative text-left">
-                <label htmlFor="email" className="leading-7 text-lg">Phone number <span className="text-red-500">*</span></label>
-                <input type="email" id="email" name="email" className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
-            </div>
-            </div>
-            <div className="p-4 w-1/2">
-            <div className="relative text-left">
-                <label htmlFor="name" className="leading-7 text-lg">Company name <span className="text-red-500">*</span></label>
-                <input type="text" id="name" name="name" className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
-            </div>
-            </div>
-            <div className="p-4 w-1/2">
-            <div className="relative text-left">
-                <label htmlFor="email" className="leading-7 text-lg">Company size <span className="text-red-500">*</span></label>
-                <input type="email" id="email" name="email" className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
-            </div>
-            </div>
-            <div className="p-4 w-full">
-            <div className="relative text-left">
-                <label htmlFor="message" className="leading-7 text-lg">How can our team help you?</label>
-                <textarea id="message" name="message" className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
-            </div>
-            </div>
-            <div className="w-3/4 p-2 w-full mx-auto">
-            <p className="text-center">By clicking submit, I acknowledge receipt of the theaccountantai.com  <span className="text-[#0000EE]">Privacy policy</span></p>
-            </div>
-            <div className="p-2 w-full">
-            <button className="flex mx-auto text-white bg-[#6161FF] border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Submit</button>
-            </div>
-        </div>
-        </div>
-        </div>
         </div>
 
         <div className="sm:w-1/2 mb-10 px-4">
@@ -92,7 +133,7 @@ export default function Contact() {
                 <span className="text-gray-500">countries</span>
                 </div>
                 <div className="md:flex-grow text-left pl-12 w-full">
-                <p className="leading-relaxed text-lg">Meet with a product consultant to see how monday.com can fit your exact business needs</p>
+                <p className="leading-relaxed text-lg">Meet with a product consultant to see how theaccountingai.com can fit your exact business needs</p>
                 </div>
             </div>
 

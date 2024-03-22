@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from './components/header';
 import Footer from "./components/footer";
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,9 +20,45 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-white {inter.className}">
+
+
+      {/* <script>
+          (function(h,o,t,j,a,r){
+              h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+              h._hjSettings={hjid:3757753,hjsv:6};
+              a=o.getElementsByTagName('head')[0];
+              r=o.createElement('script');r.async=1;
+              r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+              a.appendChild(r);
+          })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+      </script>
+ */}
+
+
+
+
+
+
+
+        {/* <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-W5Y0NY2LT9" 
+        />
+
+        <script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-W5Y0NY2LT9');
+          `}
+        </script> */}
+
+
         <Header />
         {children}
         <Footer />
+
       </body>
     </html>
   );
