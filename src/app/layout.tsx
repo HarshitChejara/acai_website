@@ -10,7 +10,7 @@ import { hotjar } from 'react-hotjar';
 import { useEffect } from 'react';
 // import { useRouter } from "next/router";
 // import Head from 'next/head';
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+// import { Head } from "next/document";
 import Script from "next/script";
 // import Hotjar from '@hotjar/browser';
 // const siteId = 3917682;
@@ -37,28 +37,28 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
   // Hotjar.init(3917682, 6);
 
   return (
-    <html lang="en">
-      <Head>
+    <>
+      {/* <Head> */}
         <Script
          strategy="lazyOnload"
-         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
          />
-        <Script id="ga-script" strategy="lazyOnload">
+        <Script id="google-analytics-script" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
+            gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
               page_path: window.location.pathname,
             });
           `}
         </Script>
-      </Head>
+      {/* </Head> */}
       <body className="bg-white {inter.className}">
         <Header />
         {children}
         <Footer />
       </body>
-    </html>
+    </>
   );
 }
