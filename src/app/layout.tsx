@@ -8,8 +8,8 @@ import Header from './components/header';
 import Footer from "./components/footer";
 import { hotjar } from 'react-hotjar';
 import { useEffect } from 'react';
-import { useRouter } from "next/router";
-import Head from 'next/head';
+// import { useRouter } from "next/router";
+// import Head from 'next/head';
 import Script from "next/script";
 // import Hotjar from '@hotjar/browser';
 // const siteId = 3917682;
@@ -37,7 +37,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
 
   return (
     <html lang="en">
-      <Head>
+      {/* <Head> */}
         <Script
          strategy="lazyOnload"
          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
@@ -52,7 +52,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
             });
           `}
         </Script>
-      </Head>
+      {/* </Head> */}
       <body className="bg-white {inter.className}">
         <Header />
         {children}
