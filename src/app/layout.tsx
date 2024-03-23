@@ -1,13 +1,16 @@
 "use client";
 
+
 // import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from './components/header';
 import Footer from "./components/footer";
-import { useEffect } from 'react';
 import { hotjar } from 'react-hotjar';
+import { useEffect } from 'react';
+import { useRouter } from "next/router";
 import Head from 'next/head';
+import Script from "next/script";
 // import Hotjar from '@hotjar/browser';
 // const siteId = 3917682;
 // const hotjarVersion = 6;
@@ -26,6 +29,7 @@ const metadata = {
 
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
 
+
   useEffect(() => {
     hotjar.initialize(3917682, 6);
   }, []);
@@ -34,17 +38,20 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
   return (
     <html lang="en">
       <Head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W5Y0NY2LT9"></script>
-        <script
-          dangerouslySetInnerHTML={{
-          __html:`
+        <Script
+         strategy="lazyOnload"
+         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+         />
+        <Script id="ga-script" strategy="lazyOnload">
+          {`
             window.dataLayer = window.dataLayer || [];
-            function gtag(){window.dataLayer.push(arguments);}
+            function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-W5Y0NY2LT9');
-          `,
-          }}
-        />
+            gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
       </Head>
       <body className="bg-white {inter.className}">
         <Header />
