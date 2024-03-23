@@ -10,7 +10,7 @@ import { hotjar } from 'react-hotjar';
 import { useEffect } from 'react';
 // import { useRouter } from "next/router";
 // import Head from 'next/head';
-import { Head } from "next/document";
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 import Script from "next/script";
 // import Hotjar from '@hotjar/browser';
 // const siteId = 3917682;
