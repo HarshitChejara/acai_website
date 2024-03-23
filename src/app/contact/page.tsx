@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React, { useState } from 'react';
 import axios from 'axios';
+import Swal from 'sweetalert2';
 
 
 export default function Contact() {
@@ -43,6 +44,13 @@ const handleSubmit=(e: React.FormEvent<HTMLFormElement>)=>{
         setMessage('');
     })
 }
+
+
+    const handleSuccessClick = () => {
+        Swal.fire('Success!', 'Your data has been Submitted.', 'success');
+    }
+
+
     return (
     <React.Fragment>
 
@@ -110,7 +118,7 @@ const handleSubmit=(e: React.FormEvent<HTMLFormElement>)=>{
                             <p className="text-center">By clicking submit, I acknowledge receipt of the theaccountantai.com  <span className="text-[#0000EE]">Privacy policy</span></p>
                         </div>
                         <div className="p-2 w-full">
-                            <button type="submit" className="flex mx-auto text-white bg-[#6161FF] border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Submit</button>
+                            <button type="submit" onClick={handleSuccessClick} className="flex mx-auto text-white bg-[#6161FF] border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Submit</button>
                         </div>
                     </div>
                     </form>
@@ -123,7 +131,7 @@ const handleSubmit=(e: React.FormEvent<HTMLFormElement>)=>{
                 <h1 className="sm:text-3xl text-2xl title-font font-bold mb-4 text-gray-900">Streamline your accounting system in one connected space</h1>
             </div>
 
-            <div className="-my-8 ">
+            <div className="-my-1 ">
             <div className=" flex flex-wrap md:flex-nowrap sm:pr-10 divide-x-2 divide-gray-300">
                 <div className="md:w-64 md:mb-0 mb-6 flex flex-col">
                 <div className="mx-auto">
@@ -150,7 +158,7 @@ const handleSubmit=(e: React.FormEvent<HTMLFormElement>)=>{
                 </div>
             </div>
 
-            <div className="py-8 flex flex-wrap md:flex-nowrap sm:pr-10 divide-x-2 divide-gray-300">
+            <div className="flex flex-wrap md:flex-nowrap sm:pr-10 divide-x-2 divide-gray-300">
                 <div className="md:w-64 md:mb-0 mb-6 flex flex-col">
                 <div className="mx-auto">
                     <Image alt="plant" width={50} height={50} src="/plant.png"/>
