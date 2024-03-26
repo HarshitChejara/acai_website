@@ -191,7 +191,7 @@ export default function AboutUs() {
             <br className="hidden lg:inline-block"/>teams work across the globe
           </h1>
           <div className="flex justify-center">
-          <Link href="https://app.theaccountantai.com/" target="_blank"><button className="inline-flex text-black font-medium bg-white py-3 px-10 focus:outline-none rounded-full text-lg">Join our team! <FontAwesomeIcon icon={faArrowRight} className="mt-2 pl-4 h-4 w-4"/></button></Link>
+          <Link href="https://app.theaccountantai.com/" target="_blank"><button className="inline-flex text-black font-medium bg-white py-3 px-10 focus:outline-none rounded-full text-lg">Join our team! <FontAwesomeIcon icon={faArrowRight} className="mt-2 ml-4 h-4 w-4"/></button></Link>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 sm:w-5/6">
@@ -273,22 +273,22 @@ export default function AboutUs() {
           <div className="text-center item-center justify-center">
           <span className="text-white inline-flex lg:mt-0 w-full justify-center md:justify-start md:w-auto">
               <a className="rounded-full bg-black h-10 w-10" href="https://linkedin.com" target="_blank">
-              <FontAwesomeIcon icon={faLinkedinIn} className="mt-2 h-6 w-6"/>
+              <FontAwesomeIcon icon={faLinkedinIn} className="ml-2 mt-2 h-6 w-6"/>
               </a>
               <a className="rounded-full bg-black h-10 w-10 ml-3" href="https://facebook.com" target="_blank">
-              <FontAwesomeIcon icon={faFacebookF} className="mt-2 h-6 w-6"/>
+              <FontAwesomeIcon icon={faFacebookF} className="ml-2 mt-2 h-6 w-6"/>
               </a>
               <a className="rounded-full bg-black h-10 w-10 ml-3" href="https://twitter.com" target="_blank">
-              <FontAwesomeIcon icon={faTwitter} className="mt-2 h-6 w-6"/>
+              <FontAwesomeIcon icon={faTwitter} className="ml-2 mt-2 h-6 w-6"/>
               </a>
               <a className="rounded-full bg-black h-10 w-10 ml-3" href="https://www.youtube.com" target="_blank">
-              <FontAwesomeIcon icon={faYoutube} className="mt-2 h-6 w-6"/>
+              <FontAwesomeIcon icon={faYoutube} className="ml-2 mt-2 h-6 w-6"/>
               </a>
               <a className="rounded-full bg-black h-10 w-10 ml-3" href="https://instagram.com" target="_blank">
-              <FontAwesomeIcon icon={faInstagram} className="mt-2 h-6 w-6"/>
+              <FontAwesomeIcon icon={faInstagram} className="ml-2 mt-2 h-6 w-6"/>
               </a>
               <a className="rounded-full bg-black h-10 w-10 ml-3" href="https://instagram.com" target="_blank">
-              <FontAwesomeIcon icon={faBasketball} className="mt-2 h-6 w-6"/>
+              <FontAwesomeIcon icon={faBasketball} className="ml-2 mt-2 h-6 w-6"/>
               </a>
           </span>
           </div>
@@ -337,7 +337,7 @@ export default function AboutUs() {
           </h1>
           <p className="py-7 text-lg">14-day free trial | No credit card needed</p>
           <div className="flex justify-center">
-          <Link href="https://app.theaccountantai.com/" target="_blank"><button className="inline-flex text-black font-medium bg-white py-3 px-10 focus:outline-none rounded-full text-lg">Get Started <FontAwesomeIcon icon={faArrowRight} className="mt-2 pl-4 h-4 w-4"/></button></Link>
+          <Link href="https://app.theaccountantai.com/" target="_blank"><button className="inline-flex text-black font-medium bg-white py-3 px-10 focus:outline-none rounded-full text-lg">Get Started <FontAwesomeIcon icon={faArrowRight} className="mt-2 ml-4 h-4 w-4"/></button></Link>
           </div>
         </div>
         <div className="w-full">

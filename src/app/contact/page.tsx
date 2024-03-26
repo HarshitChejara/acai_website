@@ -4,6 +4,7 @@ import Image from "next/image";
 import React, { useState } from 'react';
 import axios from 'axios';
 import Swal from 'sweetalert2';
+import Platforms from "../components/platforms";
 
 
 export default function Contact() {
@@ -181,10 +182,10 @@ const handleSubmit=(e: React.FormEvent<HTMLFormElement>)=>{
         </div>
 
 
-        <div className="flex flex-wrap text-center ">
+        {/* <div className="flex flex-wrap text-center ">
           <div className="p-4 md:w-1/5 w-1/2">
             <div className="px-4 py-6 rounded-lg inline-block">
-              <Image alt="mobile app" width={70} height={70} src="/quickbooks.png"/>
+              <Link href="https://quickbooks.intuit.com" target="_blank"><Image alt="mobile app" width={70} height={70} src="/quickbooks.png"/></Link>
             </div>
           </div>
           <div className="p-4 md:w-1/5 w-1/2">
@@ -207,7 +208,12 @@ const handleSubmit=(e: React.FormEvent<HTMLFormElement>)=>{
               <Image alt="mobile app" width={70} height={70} src="/netsuite.png"/>
             </div>
           </div>
+        </div> */}
+
+        <div className="flex flex-wrap text-center ">
+        <Platforms />
         </div>
+        
 
         </div>
         </div>

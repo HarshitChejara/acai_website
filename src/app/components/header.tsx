@@ -84,7 +84,7 @@ const Header = () => {
         </Transition>
   
         <div className="hidden sm:block px-5 py-7 h-24">
-        <Link href="contact" target="_blank"><button type="button" className="text-white rounded-full py-2 px-5 leading-6 bg-[#6C6CFF]">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4"/></button></Link>
+        <Link href="contact" target="_blank"><button type="button" className="text-white rounded-full py-2 px-5 leading-6 bg-[#6C6CFF] flex">Get Started <FontAwesomeIcon icon={faArrowRight} className="ml-2 mt-1 h-4 w-4"/></button></Link>
         </div>
       </Popover>
   );

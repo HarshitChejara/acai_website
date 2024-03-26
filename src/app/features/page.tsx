@@ -16,7 +16,7 @@ export default function Features() {
             </h1>
             <p className="sm:mb-10 leading-relaxed text-xl sm:w-3/4">Connect theaccountantai.com with the tools you already use to have all your team’s work in one place.</p>
             <div className="flex ">
-            <Link href="https://app.theaccountantai.com/" target="_blank"><button className="inline-flex text-white bg-[#6161FF] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4 sm:py-2 py-2 ml-2"/></button></Link>
+            <Link href="https://app.theaccountantai.com/" target="_blank"><button className="inline-flex text-white bg-[#6161FF] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4 mt-2 ml-2"/></button></Link>
             </div>
           </div>
           <div className="lg:w-3/6 mx-auto">
@@ -104,7 +104,7 @@ export default function Features() {
       </div>
 
     </div>
-    <Link href="https://app.theaccountantai.com" target="_blank"><button className="flex mx-auto mt-16 text-white bg-[#6C6CFF] border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">See more features <FontAwesomeIcon icon={faArrowRight} className="mt-2 pl-4 h-4 w-4"/></button></Link>
+    <Link href="https://app.theaccountantai.com" target="_blank"><button className="flex mx-auto mt-16 text-white bg-[#6C6CFF] border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">See more features <FontAwesomeIcon icon={faArrowRight} className="mt-2 ml-4 h-4 w-4"/></button></Link>
   </div>
 </section>
 
@@ -215,7 +215,7 @@ export default function Features() {
         <h1 className="sm:text-4xl text-3xl title-font mb-2 font-bold  text-gray-900">Integrate your favorite tools with theaccountantai.com</h1>
         <p className="lg:w-2/3 mx-auto leading-relaxed text-xl text-gray-500">14-day free trial | No credit card required</p>
         <div className="flex mx-auto overflow-hidden mt-6">
-        <Link href="https://app.theaccountantai.com/" target="_blank"><button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4"/></button></Link>
+        <Link href="https://app.theaccountantai.com/" target="_blank"><button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none flex">Get Started <FontAwesomeIcon icon={faArrowRight} className="ml-2 mt-1 h-4 w-4"/></button></Link>
         </div>
         </div>
     </div>
@@ -336,7 +336,7 @@ export default function Features() {
         <h1 className="sm:text-4xl text-3xl title-font mb-2 font-bold  text-gray-900">Try theaccountantai.com for your team</h1>
         <p className="lg:w-2/3 mx-auto leading-relaxed text-xl text-gray-500">14-day free trial | No credit card required</p>
         <div className="flex mx-auto overflow-hidden mt-6">
-        <Link href="https://app.theaccountantai.com/" target="_blank"><button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4"/></button></Link>
+        <Link href="https://app.theaccountantai.com/" target="_blank"><button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none flex">Get Started <FontAwesomeIcon icon={faArrowRight} className="ml-2 mt-1 h-4 w-4"/></button></Link>
         </div>
         </div>
     </div>

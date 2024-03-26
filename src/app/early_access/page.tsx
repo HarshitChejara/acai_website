@@ -3,6 +3,8 @@ import React from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import Platforms from "../components/platforms";
+
 
 export default function EarlyAccess() {
     return (
@@ -14,7 +16,7 @@ export default function EarlyAccess() {
         <br className="hidden lg:inline-block"/><span className="font-bold">for streamlining your accounting system</span>
         </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-lg sm:px-48">From product strategy to launch, manage it all with one flexible platform. What would you like to manage with your product management software?</p>
-            <Link href="https://app.theaccountantai.com/" target="_blank"><button className="flex mx-auto sm:mt-28 text-white bg-[#6161FF] border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4 sm:py-2 py-2 ml-2"/></button></Link>
+            <Link href="https://app.theaccountantai.com/" target="_blank"><button className="flex mx-auto sm:mt-28 text-white bg-[#6161FF] border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4 mt-2 ml-2"/></button></Link>
             <p className="mt-3 leading-relaxed">No credit card needed ✦ Unlimited time on Free plan</p>
         </div>
         <div className="flex flex-wrap -m-4 sm:mt-96">
@@ -102,7 +104,7 @@ export default function EarlyAccess() {
             <div className="flex flex-col text-center w-full mb-10">
             <h1 className="sm:text-4xl text-3xl title-font mb-2 text-black">Start your 14-day free trial</h1>
             <div className="flex mx-auto overflow-hidden mt-6">
-            <Link href="https://app.theaccountantai.com/" target="_blank"><button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4"/></button></Link>
+            <Link href="https://app.theaccountantai.com/" target="_blank"><button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none flex">Get Started <FontAwesomeIcon icon={faArrowRight} className="mt-1 ml-2 h-4 w-4"/></button></Link>
             </div>
             </div>
         </div>
@@ -189,7 +191,10 @@ export default function EarlyAccess() {
           <div className="flex flex-col text-center w-full py-14 px-14">
             <h1 className="sm:text-4xl text-2xl title-font text-gray-700">Integrate your work with all your favorite tools</h1>
           </div>
-          <div className="p-4 md:w-1/5 w-1/2">
+
+          <Platforms />
+
+          {/* <div className="p-4 md:w-1/5 w-1/2">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/quickbooks.png"/>
             </div>
@@ -217,7 +222,9 @@ export default function EarlyAccess() {
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/netsuite.png"/>
             </div>
-          </div>
+          </div> */}
+
+
         </div>
       </div>
     </section>
@@ -232,7 +239,7 @@ export default function EarlyAccess() {
         <div className="flex flex-col text-center w-full mb-10">
         <h1 className="sm:text-5xl text-3xl title-font mb-2 text-white">See why over customers are choosing theaccountantai.com</h1>
         <div className="flex mx-auto overflow-hidden mt-6">
-        <Link href="https://app.theaccountantai.com/" target="_blank"><button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4"/></button></Link>
+        <Link href="https://app.theaccountantai.com/" target="_blank"><button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none flex">Get Started <FontAwesomeIcon icon={faArrowRight} className="mt-1 ml-2 h-4 w-4"/></button></Link>
         </div>
         </div>
     </div>

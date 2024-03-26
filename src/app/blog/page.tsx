@@ -46,42 +46,42 @@ export default function Blog() {
         </div>
         <div className="flex flex-wrap -m-4 text-center">
 
-        <div className="p-4 md:w-1/6 w-1/2 w-full">
+        <div className="p-4 md:w-1/6 w-1/2 sm:w-full">
             <div className="object-center p-4 rounded-lg">
             <Image  alt="gallery" width="200" height="200" src="/category1.png" />
             </div>
             <p className="leading-relaxed">Automate Imports</p>
         </div>
 
-        <div className="p-4 md:w-1/6 w-1/2 w-full">
+        <div className="p-4 md:w-1/6 w-1/2 sm:w-full">
             <div className="object-center p-4 rounded-lg">
             <Image  alt="gallery" width="200" height="200" src="/category2.png" />
             </div>
             <p className="leading-relaxed">Intelligent Accounting</p>
         </div>
 
-        <div className="p-4 md:w-1/6 w-1/2 w-full">
+        <div className="p-4 md:w-1/6 w-1/2 sm:w-full">
             <div className="object-center p-4 rounded-lg">
             <Image  alt="gallery" width="200" height="200" src="/category3.png" />
             </div>
             <p className="leading-relaxed">How to use</p>
         </div>
 
-        <div className="p-4 md:w-1/6 w-1/2 w-full">
+        <div className="p-4 md:w-1/6 w-1/2 sm:w-full">
             <div className="object-center p-4 rounded-lg">
             <Image  alt="gallery" width="200" height="200" src="/category4.png" />
             </div>
             <p className="leading-relaxed">Link Third-party apps</p>
         </div>
 
-        <div className="p-4 md:w-1/6 w-1/2 w-full">
+        <div className="p-4 md:w-1/6 w-1/2 sm:w-full">
             <div className="object-center p-4 rounded-lg">
             <Image  alt="gallery" width="200" height="200" src="/category5.png" />
             </div>
             <p className="leading-relaxed">Customise</p>
         </div>
 
-        <div className="p-4 md:w-1/6 w-1/2 w-full">
+        <div className="p-4 md:w-1/6 w-1/2 sm:w-full">
             <div className="object-center p-4 rounded-lg">
             <Image  alt="gallery" width="200" height="200" src="/category6.png" />
             </div>

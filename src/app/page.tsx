@@ -3,6 +3,9 @@ import React from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import Platforms from "./components/platforms";
+
+
 
 export default function Home() {
   return (
@@ -16,7 +19,7 @@ export default function Home() {
             </h1>
             <p className="sm:mb-20 leading-relaxed text-xl">What would you like to manage with theaccountantai.com</p>
             <div className="flex ">
-            <Link href="https://app.theaccountantai.com/" target="_blank"><button className="inline-flex text-white bg-gradient-to-r from-[#5034FF] to-[#B4B4FF] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4 sm:py-2 py-2 ml-2"/></button></Link>
+            <Link href="https://app.theaccountantai.com/" target="_blank"><button className="inline-flex text-white bg-gradient-to-r from-[#5034FF] to-[#B4B4FF] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4 mt-2 ml-2"/></button></Link>
             </div>
             <p className="mt-8 leading-relaxed">No credit card needed ✦ Unlimited time on Free plan</p>
           </div>
@@ -38,7 +41,7 @@ export default function Home() {
           <h1 className="sm:text-4xl text-3xl title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">Your Automated Accountant that manages your Accounts in <span className="font-bold">your way</span></h1>
           <p className="lg:pl-52 lg:w-2/3 mx-auto leading-relaxed text-xl">Streamline your accounting needs, efficiency, and productivity by customizing any workflow to fit your needs. Import any IMG/CSV/EXCEL/PDF/WORD file or from your own software API.
             <span className="flex sm:mt-5 mt-5">
-            <Link href="https://app.theaccountantai.com/" target="_blank"><button className="inline-flex text-white bg-[#6161FF] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4 sm:py-2 py-2 ml-2"/></button></Link>
+            <Link href="https://app.theaccountantai.com/" target="_blank"><button className="inline-flex text-white bg-[#6161FF] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4 mt-2 ml-2"/></button></Link>
             </span>
           </p>
         </div>
@@ -211,7 +214,10 @@ export default function Home() {
           </h1>
         </div>
         <div className="flex flex-wrap text-center bg-[#F7F7FA] border-t border-b border-[#E7DAED] ">
-          <div className="p-4 md:w-1/5 w-1/2">
+
+          <Platforms />
+
+          {/* <div className="p-4 md:w-1/5 w-1/2">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/quickbooks.png"/>
             </div>
@@ -239,7 +245,8 @@ export default function Home() {
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/netsuite.png"/>
             </div>
-          </div>
+          </div> */}
+
         </div>
       </div>
     </section>

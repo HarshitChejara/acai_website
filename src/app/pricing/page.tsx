@@ -5,6 +5,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { faCircleExclamation } from '@fortawesome/free-solid-svg-icons';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import Platforms from "../components/platforms";
+
+
 
 export default function Pricing() {
     return (
@@ -15,7 +18,7 @@ export default function Pricing() {
         <h1 className="sm:text-4xl text-3xl font-bold title-font mb-2 text-gray-900">Supercharge your teamwork. Start <span className="text-[#5559DF]">free.</span></h1>
         <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Unlimited file imports and inteligent accounting. No credit card needed.</p>
         <div className="flex mx-auto overflow-hidden mt-6">
-        <Link href="https://app.theaccountantai.com/" target="_blank"><button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4"/></button></Link>
+        <Link href="https://app.theaccountantai.com/" target="_blank"><button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none flex">Get Started <FontAwesomeIcon icon={faArrowRight} className="ml-2 mt-1 h-4 w-4"/></button></Link>
         </div>
         </div>
         <div className="flex flex-col w-full text-right mb-5 text-lg">
@@ -146,7 +149,10 @@ export default function Pricing() {
           <div className="flex flex-col text-center w-full py-14 px-14">
             <h1 className="sm:text-4xl text-2xl title-font text-gray-700">Our integrations with other workspaces</h1>
           </div>
-          <div className="p-4 md:w-1/5 w-1/2">
+
+          <Platforms />
+
+          {/* <div className="p-4 md:w-1/5 w-1/2">
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/quickbooks.png"/>
             </div>
@@ -174,7 +180,8 @@ export default function Pricing() {
             <div className="px-4 py-6 rounded-lg inline-block">
               <Image alt="mobile app" width={70} height={70} src="/netsuite.png"/>
             </div>
-          </div>
+          </div> */}
+          
         </div>
       </div>
     </section>
@@ -413,7 +420,7 @@ export default function Pricing() {
         <h1 className="sm:text-4xl text-3xl title-font mb-2 text-gray-900">Start using theaccountentai.com today</h1>
         <p className="lg:w-2/3 mx-auto leading-relaxed text-xl text-gray-500">Try it now for free / No credit card needed</p>
         <div className="flex mx-auto overflow-hidden mt-6">
-        <Link href="https://app.theaccountantai.com/" target="_blank"><button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none">Get Started <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4"/></button></Link>
+        <Link href="https://app.theaccountantai.com/" target="_blank"><button className="py-2 px-6 bg-[#6161FF] text-white rounded-full focus:outline-none flex">Get Started <FontAwesomeIcon icon={faArrowRight} className="ml-2 mt-1 h-4 w-4"/></button></Link>
         </div>
         </div>
     </div>
