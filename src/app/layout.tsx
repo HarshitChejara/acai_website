@@ -17,6 +17,7 @@ import Script from "next/script";
 // const hotjarVersion = 6;
 
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 // export const metadata: Metadata = {
@@ -38,7 +39,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
 
   return (
     <>
-      {/* <Head> */}
+      <head>
         <Script
          strategy="lazyOnload"
          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
@@ -53,7 +54,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
             });
           `}
         </Script>
-      {/* </Head> */}
+      </head>
       <body className="bg-white {inter.className}">
         <Header />
         {children}
