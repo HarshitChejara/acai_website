@@ -49,7 +49,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', ${'G-W5Y0NY2LT9'});
+            gtag('config', 'G-W5Y0NY2LT9');
           `}
         </Script>
       </head>
