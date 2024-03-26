@@ -41,17 +41,15 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
     <>
       <head>
         <Script
-         strategy="lazyOnload"
-         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
+         async
+         src="https://www.googletagmanager.com/gtag/js?id=G-W5Y0NY2LT9"
          />
-        <Script id="google-analytics-script" strategy="lazyOnload">
+        <Script id="google-analytics">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
-              page_path: window.location.pathname,
-            });
+            gtag('config', ${'${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}'});
           `}
         </Script>
       </head>
